@@ -1,0 +1,1651 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.18.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/chenjunhao/Downloads/1m/silver-age-platform/.npmrc
+5 silly config load:file:/Users/chenjunhao/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install antd @ant-design/icons echarts echarts-for-react @tanstack/react-query zod dayjs
+8 verbose argv "install" "antd" "@ant-design/icons" "echarts" "echarts-for-react" "@tanstack/react-query" "zod" "dayjs" "--cache" ".npm-local-cache"
+9 verbose logfile logs-max:10 dir:/Users/chenjunhao/Downloads/1m/silver-age-platform/.npm-local-cache/_logs/2026-03-25T12_53_46_604Z-
+10 verbose logfile /Users/chenjunhao/Downloads/1m/silver-age-platform/.npm-local-cache/_logs/2026-03-25T12_53_46_604Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest antd@*
+15 silly packumentCache full:https://registry.npmjs.org/antd cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 1749ms
+17 http fetch GET 200 https://registry.npmjs.org/antd 2366ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/antd set size:undefined disposed:false
+19 silly fetch manifest react@19.2.4
+20 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/react 1220ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+23 silly fetch manifest react-dom@19.2.4
+24 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/react-dom 1744ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+27 silly fetch manifest @ant-design/icons@*
+28 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ficons cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/@ant-design%2ficons 248ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ficons set size:undefined disposed:false
+31 silly fetch manifest echarts@*
+32 silly packumentCache full:https://registry.npmjs.org/echarts cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/echarts 293ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/echarts set size:undefined disposed:false
+35 silly fetch manifest echarts-for-react@*
+36 silly packumentCache full:https://registry.npmjs.org/echarts-for-react cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/echarts-for-react 370ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/echarts-for-react set size:undefined disposed:false
+39 silly fetch manifest @tanstack/react-query@*
+40 silly packumentCache full:https://registry.npmjs.org/@tanstack%2freact-query cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/@tanstack%2freact-query 356ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/@tanstack%2freact-query set size:undefined disposed:false
+43 silly fetch manifest zod@*
+44 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/zod 312ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/zod set size:undefined disposed:false
+47 silly fetch manifest dayjs@*
+48 silly packumentCache full:https://registry.npmjs.org/dayjs cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/dayjs 551ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/dayjs set size:undefined disposed:false
+51 silly placeDep ROOT @ant-design/icons@6.1.0 OK for: silver-age-platform@0.1.0 want: *
+52 silly placeDep ROOT @tanstack/react-query@5.95.2 OK for: silver-age-platform@0.1.0 want: *
+53 silly placeDep ROOT antd@6.3.4 OK for: silver-age-platform@0.1.0 want: *
+54 silly placeDep ROOT dayjs@1.11.20 OK for: silver-age-platform@0.1.0 want: *
+55 silly placeDep ROOT echarts@6.0.0 OK for: silver-age-platform@0.1.0 want: *
+56 silly placeDep ROOT echarts-for-react@3.0.6 OK for: silver-age-platform@0.1.0 want: *
+57 silly placeDep ROOT zod@4.3.6 REPLACE for: silver-age-platform@0.1.0 want: *
+58 silly fetch manifest clsx@^2.1.1
+59 silly packumentCache full:https://registry.npmjs.org/clsx cache-miss
+60 silly fetch manifest @ant-design/colors@^8.0.0
+61 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcolors cache-miss
+62 silly fetch manifest @rc-component/util@^1.3.0
+63 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil cache-miss
+64 silly fetch manifest @ant-design/icons-svg@^4.4.0
+65 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ficons-svg cache-miss
+66 silly fetch manifest @tanstack/query-core@5.95.2
+67 silly packumentCache full:https://registry.npmjs.org/@tanstack%2fquery-core cache-miss
+68 silly fetch manifest clsx@^2.1.1
+69 silly packumentCache full:https://registry.npmjs.org/clsx cache-miss
+70 silly fetch manifest dayjs@^1.11.11
+71 silly packumentCache full:https://registry.npmjs.org/dayjs cache-miss
+72 silly fetch manifest @babel/runtime@^7.28.4
+73 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+74 silly fetch manifest throttle-debounce@^5.0.2
+75 silly packumentCache full:https://registry.npmjs.org/throttle-debounce cache-miss
+76 http cache https://registry.npmjs.org/dayjs 11ms (cache hit)
+77 silly packumentCache full:https://registry.npmjs.org/dayjs set size:486327 disposed:false
+78 silly fetch manifest @ant-design/colors@^8.0.1
+79 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcolors cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/clsx 238ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/clsx set size:undefined disposed:false
+82 silly fetch manifest @rc-component/form@~1.8.0
+83 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fform cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/@ant-design%2fcolors 262ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcolors set size:undefined disposed:false
+86 silly fetch manifest @rc-component/menu@~1.2.0
+87 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmenu cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fmenu 369ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmenu set size:undefined disposed:false
+90 silly fetch manifest @rc-component/rate@~1.0.1
+91 silly packumentCache full:https://registry.npmjs.org/@rc-component%2frate cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/@rc-component%2frate 298ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/@rc-component%2frate set size:undefined disposed:false
+94 silly fetch manifest @rc-component/tabs@~1.7.0
+95 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftabs cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/@rc-component%2futil 974ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil set size:undefined disposed:false
+98 silly fetch manifest @rc-component/tour@~2.3.0
+99 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftour cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/@ant-design%2ficons-svg 1183ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ficons-svg set size:undefined disposed:false
+102 silly fetch manifest @rc-component/tree@~1.2.4
+103 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftree cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/throttle-debounce 1190ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/throttle-debounce set size:undefined disposed:false
+106 silly fetch manifest @rc-component/util@^1.10.0
+107 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil cache-miss
+108 http cache https://registry.npmjs.org/@rc-component%2futil 2ms (cache hit)
+109 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil set size:60914 disposed:false
+110 silly fetch manifest @ant-design/cssinjs@^2.1.2
+111 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcssinjs cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftabs 265ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftabs set size:undefined disposed:false
+114 silly fetch manifest @rc-component/image@~1.8.0
+115 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fimage cache-miss
+116 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fform 984ms (cache miss)
+117 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fform set size:undefined disposed:false
+118 silly fetch manifest @rc-component/input@~1.1.2
+119 silly packumentCache full:https://registry.npmjs.org/@rc-component%2finput cache-miss
+120 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftour 295ms (cache miss)
+121 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftour set size:undefined disposed:false
+122 silly fetch manifest @rc-component/steps@~1.2.2
+123 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fsteps cache-miss
+124 http fetch GET 200 https://registry.npmjs.org/@tanstack%2fquery-core 1309ms (cache miss)
+125 silly packumentCache full:https://registry.npmjs.org/@tanstack%2fquery-core set size:undefined disposed:false
+126 silly fetch manifest @rc-component/table@~1.9.1
+127 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftable cache-miss
+128 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 1437ms (cache miss)
+129 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:undefined disposed:false
+130 silly fetch manifest @rc-component/dialog@~1.8.4
+131 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fdialog cache-miss
+132 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fimage 257ms (cache miss)
+133 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fimage set size:undefined disposed:false
+134 silly fetch manifest @rc-component/drawer@~1.4.2
+135 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fdrawer cache-miss
+136 http fetch GET 200 https://registry.npmjs.org/@rc-component%2finput 264ms (cache miss)
+137 silly packumentCache full:https://registry.npmjs.org/@rc-component%2finput set size:undefined disposed:false
+138 silly fetch manifest @rc-component/motion@^1.3.1
+139 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion cache-miss
+140 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftree 312ms (cache miss)
+141 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftree set size:undefined disposed:false
+142 silly fetch manifest @rc-component/picker@~1.9.1
+143 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fpicker cache-miss
+144 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fsteps 262ms (cache miss)
+145 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fsteps set size:undefined disposed:false
+146 silly fetch manifest @rc-component/qrcode@~1.1.1
+147 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fqrcode cache-miss
+148 http fetch GET 200 https://registry.npmjs.org/@ant-design%2fcolors 1580ms (cache miss)
+149 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcolors set size:undefined disposed:false
+150 silly fetch manifest @rc-component/select@~1.6.15
+151 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fselect cache-miss
+152 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftable 299ms (cache miss)
+153 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftable set size:undefined disposed:false
+154 silly fetch manifest @rc-component/slider@~1.0.1
+155 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fslider cache-miss
+156 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fqrcode 281ms (cache miss)
+157 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fqrcode set size:undefined disposed:false
+158 silly fetch manifest @rc-component/switch@~1.0.3
+159 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fswitch cache-miss
+160 http fetch GET 200 https://registry.npmjs.org/@ant-design%2fcssinjs 796ms (cache miss)
+161 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcssinjs set size:undefined disposed:false
+162 silly fetch manifest @rc-component/upload@~1.1.0
+163 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fupload cache-miss
+164 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fpicker 512ms (cache miss)
+165 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fpicker set size:undefined disposed:false
+166 silly fetch manifest @rc-component/tooltip@~1.4.0
+167 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftooltip cache-miss
+168 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fdialog 563ms (cache miss)
+169 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fdialog set size:undefined disposed:false
+170 silly fetch manifest @rc-component/trigger@^3.9.0
+171 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftrigger cache-miss
+172 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fdrawer 599ms (cache miss)
+173 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fdrawer set size:undefined disposed:false
+174 silly fetch manifest @ant-design/fast-color@^3.0.1
+175 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ffast-color cache-miss
+176 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fswitch 282ms (cache miss)
+177 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fswitch set size:undefined disposed:false
+178 silly fetch manifest @rc-component/cascader@~1.14.0
+179 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcascader cache-miss
+180 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fslider 513ms (cache miss)
+181 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fslider set size:undefined disposed:false
+182 silly fetch manifest @rc-component/checkbox@~2.0.0
+183 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcheckbox cache-miss
+184 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fselect 591ms (cache miss)
+185 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fselect set size:undefined disposed:false
+186 silly fetch manifest @rc-component/collapse@~1.2.0
+187 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcollapse cache-miss
+188 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fmotion 742ms (cache miss)
+189 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion set size:undefined disposed:false
+190 silly fetch manifest @rc-component/dropdown@~1.0.2
+191 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fdropdown cache-miss
+192 http fetch GET 200 https://registry.npmjs.org/clsx 2269ms (cache miss)
+193 silly packumentCache full:https://registry.npmjs.org/clsx set size:undefined disposed:false
+194 silly fetch manifest @rc-component/mentions@~1.6.0
+195 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmentions cache-miss
+196 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fupload 280ms (cache miss)
+197 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fupload set size:undefined disposed:false
+198 silly fetch manifest @rc-component/progress@~1.0.2
+199 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fprogress cache-miss
+200 http fetch GET 200 https://registry.npmjs.org/@ant-design%2ffast-color 264ms (cache miss)
+201 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ffast-color set size:undefined disposed:false
+202 silly fetch manifest @rc-component/textarea@~1.1.2
+203 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftextarea cache-miss
+204 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftrigger 312ms (cache miss)
+205 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftrigger set size:undefined disposed:false
+206 silly fetch manifest @ant-design/react-slick@~2.0.0
+207 silly packumentCache full:https://registry.npmjs.org/@ant-design%2freact-slick cache-miss
+208 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftooltip 320ms (cache miss)
+209 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftooltip set size:undefined disposed:false
+210 silly fetch manifest @rc-component/segmented@~1.3.0
+211 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fsegmented cache-miss
+212 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fcascader 263ms (cache miss)
+213 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcascader set size:undefined disposed:false
+214 silly fetch manifest @rc-component/pagination@~1.2.0
+215 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fpagination cache-miss
+216 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fcheckbox 263ms (cache miss)
+217 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcheckbox set size:undefined disposed:false
+218 silly fetch manifest @ant-design/cssinjs-utils@^2.1.2
+219 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcssinjs-utils cache-miss
+220 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fcollapse 246ms (cache miss)
+221 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcollapse set size:undefined disposed:false
+222 silly fetch manifest @rc-component/tree-select@~1.8.0
+223 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftree-select cache-miss
+224 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fdropdown 276ms (cache miss)
+225 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fdropdown set size:undefined disposed:false
+226 silly fetch manifest @rc-component/color-picker@~3.1.1
+227 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcolor-picker cache-miss
+228 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fmentions 252ms (cache miss)
+229 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmentions set size:undefined disposed:false
+230 silly fetch manifest @rc-component/input-number@~1.6.2
+231 silly packumentCache full:https://registry.npmjs.org/@rc-component%2finput-number cache-miss
+232 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fprogress 252ms (cache miss)
+233 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fprogress set size:undefined disposed:false
+234 silly fetch manifest @rc-component/notification@~1.2.0
+235 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fnotification cache-miss
+236 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fsegmented 241ms (cache miss)
+237 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fsegmented set size:undefined disposed:false
+238 silly fetch manifest scroll-into-view-if-needed@^3.1.0
+239 silly packumentCache full:https://registry.npmjs.org/scroll-into-view-if-needed cache-miss
+240 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftextarea 253ms (cache miss)
+241 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftextarea set size:undefined disposed:false
+242 silly fetch manifest @rc-component/mutate-observer@^2.0.1
+243 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmutate-observer cache-miss
+244 http fetch GET 200 https://registry.npmjs.org/@ant-design%2freact-slick 269ms (cache miss)
+245 silly packumentCache full:https://registry.npmjs.org/@ant-design%2freact-slick set size:undefined disposed:false
+246 silly fetch manifest @rc-component/resize-observer@^1.1.1
+247 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fresize-observer cache-miss
+248 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fpagination 271ms (cache miss)
+249 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fpagination set size:undefined disposed:false
+250 silly fetch manifest tslib@2.3.0
+251 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+252 http fetch GET 200 https://registry.npmjs.org/@ant-design%2fcssinjs-utils 269ms (cache miss)
+253 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcssinjs-utils set size:undefined disposed:false
+254 silly fetch manifest zrender@6.0.0
+255 silly packumentCache full:https://registry.npmjs.org/zrender cache-miss
+256 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftree-select 291ms (cache miss)
+257 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftree-select set size:undefined disposed:false
+258 silly fetch manifest size-sensor@^1.0.1
+259 silly packumentCache full:https://registry.npmjs.org/size-sensor cache-miss
+260 http fetch GET 200 https://registry.npmjs.org/@rc-component%2finput-number 295ms (cache miss)
+261 silly packumentCache full:https://registry.npmjs.org/@rc-component%2finput-number set size:undefined disposed:false
+262 http fetch GET 200 https://registry.npmjs.org/scroll-into-view-if-needed 570ms (cache miss)
+263 silly packumentCache full:https://registry.npmjs.org/scroll-into-view-if-needed set size:undefined disposed:false
+264 http fetch GET 200 https://registry.npmjs.org/zrender 528ms (cache miss)
+265 silly packumentCache full:https://registry.npmjs.org/zrender set size:undefined disposed:false
+266 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fresize-observer 610ms (cache miss)
+267 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fresize-observer set size:undefined disposed:false
+268 http fetch GET 200 https://registry.npmjs.org/tslib 731ms (cache miss)
+269 silly packumentCache full:https://registry.npmjs.org/tslib set size:undefined disposed:false
+270 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fmutate-observer 904ms (cache miss)
+271 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmutate-observer set size:undefined disposed:false
+272 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fnotification 970ms (cache miss)
+273 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fnotification set size:undefined disposed:false
+274 http fetch GET 200 https://registry.npmjs.org/size-sensor 798ms (cache miss)
+275 silly packumentCache full:https://registry.npmjs.org/size-sensor set size:undefined disposed:false
+276 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fcolor-picker 2066ms (cache miss)
+277 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcolor-picker set size:undefined disposed:false
+278 silly fetch manifest react@>=16.0.0
+279 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+280 http cache https://registry.npmjs.org/react 12ms (cache hit)
+281 silly packumentCache full:https://registry.npmjs.org/react set size:6561333 disposed:false
+282 silly fetch manifest react-dom@>=16.0.0
+283 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+284 http cache https://registry.npmjs.org/react-dom 13ms (cache hit)
+285 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8715553 disposed:false
+286 silly placeDep ROOT @ant-design/colors@8.0.1 OK for: @ant-design/icons@6.1.0 want: ^8.0.0
+287 silly placeDep ROOT @ant-design/icons-svg@4.4.2 OK for: @ant-design/icons@6.1.0 want: ^4.4.0
+288 silly placeDep ROOT @rc-component/util@1.10.0 OK for: @ant-design/icons@6.1.0 want: ^1.3.0
+289 silly placeDep ROOT clsx@2.1.1 OK for: @ant-design/icons@6.1.0 want: ^2.1.1
+290 silly fetch manifest @ant-design/fast-color@^3.0.0
+291 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ffast-color cache-miss
+292 silly fetch manifest is-mobile@^5.0.0
+293 silly packumentCache full:https://registry.npmjs.org/is-mobile cache-miss
+294 silly fetch manifest react-is@^18.2.0
+295 silly packumentCache full:https://registry.npmjs.org/react-is cache-miss
+296 http cache https://registry.npmjs.org/@ant-design%2ffast-color 10ms (cache hit)
+297 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ffast-color set size:47979 disposed:false
+298 http fetch GET 200 https://registry.npmjs.org/is-mobile 273ms (cache miss)
+299 silly packumentCache full:https://registry.npmjs.org/is-mobile set size:undefined disposed:false
+300 http fetch GET 200 https://registry.npmjs.org/react-is 2022ms (cache miss)
+301 silly packumentCache full:https://registry.npmjs.org/react-is set size:undefined disposed:false
+302 silly placeDep ROOT @ant-design/fast-color@3.0.1 OK for: @ant-design/colors@8.0.1 want: ^3.0.0
+303 silly placeDep ROOT is-mobile@5.0.0 OK for: @rc-component/util@1.10.0 want: ^5.0.0
+304 silly placeDep node_modules/@rc-component/util react-is@18.3.1 OK for: @rc-component/util@1.10.0 want: ^18.2.0
+305 silly placeDep ROOT @tanstack/query-core@5.95.2 OK for: @tanstack/react-query@5.95.2 want: 5.95.2
+306 silly fetch manifest react@>=18.0.0
+307 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+308 http cache https://registry.npmjs.org/react 9ms (cache hit)
+309 silly packumentCache full:https://registry.npmjs.org/react set size:6561333 disposed:false
+310 silly fetch manifest react-dom@>=18.0.0
+311 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+312 http cache https://registry.npmjs.org/react-dom 8ms (cache hit)
+313 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8715553 disposed:false
+314 silly fetch manifest date-fns@>= 2.x
+315 silly packumentCache full:https://registry.npmjs.org/date-fns cache-miss
+316 http fetch GET 200 https://registry.npmjs.org/date-fns 768ms (cache miss)
+317 silly packumentCache full:https://registry.npmjs.org/date-fns set size:undefined disposed:false
+318 silly fetch manifest luxon@>= 3.x
+319 silly packumentCache full:https://registry.npmjs.org/luxon cache-miss
+320 http fetch GET 200 https://registry.npmjs.org/luxon 815ms (cache miss)
+321 silly packumentCache full:https://registry.npmjs.org/luxon set size:undefined disposed:false
+322 silly fetch manifest moment@>= 2.x
+323 silly packumentCache full:https://registry.npmjs.org/moment cache-miss
+324 http fetch GET 200 https://registry.npmjs.org/moment 256ms (cache miss)
+325 silly packumentCache full:https://registry.npmjs.org/moment set size:undefined disposed:false
+326 silly placeDep ROOT @ant-design/cssinjs@2.1.2 OK for: antd@6.3.4 want: ^2.1.2
+327 silly placeDep ROOT @ant-design/cssinjs-utils@2.1.2 OK for: antd@6.3.4 want: ^2.1.2
+328 silly placeDep ROOT @ant-design/react-slick@2.0.0 OK for: antd@6.3.4 want: ~2.0.0
+329 silly placeDep ROOT @babel/runtime@7.29.2 OK for: antd@6.3.4 want: ^7.28.4
+330 silly placeDep ROOT @rc-component/cascader@1.14.0 OK for: antd@6.3.4 want: ~1.14.0
+331 silly placeDep ROOT @rc-component/checkbox@2.0.0 OK for: antd@6.3.4 want: ~2.0.0
+332 silly placeDep ROOT @rc-component/collapse@1.2.0 OK for: antd@6.3.4 want: ~1.2.0
+333 silly placeDep ROOT @rc-component/color-picker@3.1.1 OK for: antd@6.3.4 want: ~3.1.1
+334 silly placeDep ROOT @rc-component/dialog@1.8.4 OK for: antd@6.3.4 want: ~1.8.4
+335 silly placeDep ROOT @rc-component/drawer@1.4.2 OK for: antd@6.3.4 want: ~1.4.2
+336 silly placeDep ROOT @rc-component/dropdown@1.0.2 OK for: antd@6.3.4 want: ~1.0.2
+337 silly placeDep ROOT @rc-component/form@1.8.0 OK for: antd@6.3.4 want: ~1.8.0
+338 silly placeDep ROOT @rc-component/image@1.8.0 OK for: antd@6.3.4 want: ~1.8.0
+339 silly placeDep ROOT @rc-component/input@1.1.2 OK for: antd@6.3.4 want: ~1.1.2
+340 silly placeDep ROOT @rc-component/input-number@1.6.2 OK for: antd@6.3.4 want: ~1.6.2
+341 silly placeDep ROOT @rc-component/mentions@1.6.0 OK for: antd@6.3.4 want: ~1.6.0
+342 silly placeDep ROOT @rc-component/menu@1.2.0 OK for: antd@6.3.4 want: ~1.2.0
+343 silly placeDep ROOT @rc-component/motion@1.3.1 OK for: antd@6.3.4 want: ^1.3.1
+344 silly placeDep ROOT @rc-component/mutate-observer@2.0.1 OK for: antd@6.3.4 want: ^2.0.1
+345 silly placeDep ROOT @rc-component/notification@1.2.0 OK for: antd@6.3.4 want: ~1.2.0
+346 silly placeDep ROOT @rc-component/pagination@1.2.0 OK for: antd@6.3.4 want: ~1.2.0
+347 silly placeDep ROOT @rc-component/picker@1.9.1 OK for: antd@6.3.4 want: ~1.9.1
+348 silly placeDep ROOT @rc-component/progress@1.0.2 OK for: antd@6.3.4 want: ~1.0.2
+349 silly placeDep ROOT @rc-component/qrcode@1.1.1 OK for: antd@6.3.4 want: ~1.1.1
+350 silly placeDep ROOT @rc-component/rate@1.0.1 OK for: antd@6.3.4 want: ~1.0.1
+351 silly placeDep ROOT @rc-component/resize-observer@1.1.2 OK for: antd@6.3.4 want: ^1.1.1
+352 silly placeDep ROOT @rc-component/segmented@1.3.0 OK for: antd@6.3.4 want: ~1.3.0
+353 silly placeDep ROOT @rc-component/select@1.6.15 OK for: antd@6.3.4 want: ~1.6.15
+354 silly placeDep ROOT @rc-component/slider@1.0.1 OK for: antd@6.3.4 want: ~1.0.1
+355 silly placeDep ROOT @rc-component/steps@1.2.2 OK for: antd@6.3.4 want: ~1.2.2
+356 silly placeDep ROOT @rc-component/switch@1.0.3 OK for: antd@6.3.4 want: ~1.0.3
+357 silly placeDep ROOT @rc-component/table@1.9.1 OK for: antd@6.3.4 want: ~1.9.1
+358 silly placeDep ROOT @rc-component/tabs@1.7.0 OK for: antd@6.3.4 want: ~1.7.0
+359 silly placeDep ROOT @rc-component/textarea@1.1.2 OK for: antd@6.3.4 want: ~1.1.2
+360 silly placeDep ROOT @rc-component/tooltip@1.4.0 OK for: antd@6.3.4 want: ~1.4.0
+361 silly placeDep ROOT @rc-component/tour@2.3.0 OK for: antd@6.3.4 want: ~2.3.0
+362 silly placeDep ROOT @rc-component/tree@1.2.4 OK for: antd@6.3.4 want: ~1.2.4
+363 silly placeDep ROOT @rc-component/tree-select@1.8.0 OK for: antd@6.3.4 want: ~1.8.0
+364 silly placeDep ROOT @rc-component/trigger@3.9.0 OK for: antd@6.3.4 want: ^3.9.0
+365 silly placeDep ROOT @rc-component/upload@1.1.0 OK for: antd@6.3.4 want: ~1.1.0
+366 silly placeDep ROOT scroll-into-view-if-needed@3.1.0 OK for: antd@6.3.4 want: ^3.1.0
+367 silly placeDep ROOT throttle-debounce@5.0.2 OK for: antd@6.3.4 want: ^5.0.2
+368 silly fetch manifest @babel/runtime@^7.11.1
+369 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+370 silly fetch manifest @emotion/hash@^0.8.0
+371 silly packumentCache full:https://registry.npmjs.org/@emotion%2fhash cache-miss
+372 silly fetch manifest @emotion/unitless@^0.7.5
+373 silly packumentCache full:https://registry.npmjs.org/@emotion%2funitless cache-miss
+374 silly fetch manifest stylis@^4.3.4
+375 silly packumentCache full:https://registry.npmjs.org/stylis cache-miss
+376 silly fetch manifest @babel/runtime@^7.23.2
+377 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+378 silly fetch manifest json2mq@^0.2.0
+379 silly packumentCache full:https://registry.npmjs.org/json2mq cache-miss
+380 silly fetch manifest throttle-debounce@^5.0.0
+381 silly packumentCache full:https://registry.npmjs.org/throttle-debounce cache-miss
+382 silly fetch manifest @rc-component/tree@~1.2.0
+383 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftree cache-miss
+384 silly fetch manifest @rc-component/select@~1.6.0
+385 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fselect cache-miss
+386 http cache https://registry.npmjs.org/throttle-debounce 5ms (cache hit)
+387 silly packumentCache full:https://registry.npmjs.org/throttle-debounce set size:73345 disposed:false
+388 silly fetch manifest @rc-component/motion@^1.1.4
+389 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion cache-miss
+390 http cache https://registry.npmjs.org/@rc-component%2fselect 6ms (cache hit)
+391 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fselect set size:161982 disposed:false
+392 silly fetch manifest @rc-component/motion@^1.1.3
+393 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion cache-miss
+394 http cache https://registry.npmjs.org/@rc-component%2ftree 7ms (cache hit)
+395 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftree set size:42609 disposed:false
+396 silly fetch manifest @rc-component/portal@^2.1.0
+397 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fportal cache-miss
+398 http cache https://registry.npmjs.org/@babel%2fruntime 11ms (cache hit)
+399 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:3372292 disposed:false
+400 silly fetch manifest @rc-component/motion@^1.1.4
+401 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion cache-miss
+402 http cache https://registry.npmjs.org/@babel%2fruntime 25ms (cache hit)
+403 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:3372292 disposed:false
+404 silly fetch manifest @rc-component/portal@^2.1.3
+405 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fportal cache-miss
+406 http cache https://registry.npmjs.org/@rc-component%2fmotion 30ms (cache hit)
+407 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion set size:36526 disposed:false
+408 silly fetch manifest @rc-component/trigger@^3.0.0
+409 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftrigger cache-miss
+410 http cache https://registry.npmjs.org/@rc-component%2fmotion 17ms (cache hit)
+411 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion set size:36526 disposed:false
+412 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion dispose
+413 silly fetch manifest @rc-component/async-validator@^5.1.0
+414 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fasync-validator cache-miss
+415 http cache https://registry.npmjs.org/@rc-component%2fmotion 33ms (cache hit)
+416 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion set size:36526 disposed:true
+417 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion dispose
+418 silly fetch manifest @rc-component/motion@^1.0.0
+419 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion cache-hit
+420 silly fetch manifest @rc-component/portal@^2.1.2
+421 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fportal cache-miss
+422 http cache https://registry.npmjs.org/@rc-component%2ftrigger 7ms (cache hit)
+423 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftrigger set size:380714 disposed:false
+424 silly fetch manifest @rc-component/mini-decimal@^1.0.1
+425 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmini-decimal cache-miss
+426 http fetch GET 200 https://registry.npmjs.org/@emotion%2funitless 267ms (cache miss)
+427 silly packumentCache full:https://registry.npmjs.org/@emotion%2funitless set size:undefined disposed:false
+428 silly fetch manifest @rc-component/textarea@~1.1.0
+429 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftextarea cache-miss
+430 http cache https://registry.npmjs.org/@rc-component%2ftextarea 3ms (cache hit)
+431 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftextarea set size:18463 disposed:false
+432 silly fetch manifest @rc-component/overflow@^1.0.0
+433 silly packumentCache full:https://registry.npmjs.org/@rc-component%2foverflow cache-miss
+434 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fportal 241ms (cache miss)
+435 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fportal set size:undefined disposed:false
+436 silly fetch manifest @rc-component/overflow@^1.0.0
+437 silly packumentCache full:https://registry.npmjs.org/@rc-component%2foverflow cache-miss
+438 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fportal 270ms (cache miss)
+439 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fportal set size:undefined disposed:false
+440 silly fetch manifest @rc-component/resize-observer@^1.0.0
+441 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fresize-observer cache-miss
+442 http cache https://registry.npmjs.org/@rc-component%2fresize-observer 2ms (cache hit)
+443 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fresize-observer set size:17852 disposed:false
+444 silly fetch manifest @rc-component/trigger@^3.6.15
+445 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftrigger cache-hit
+446 silly fetch manifest @rc-component/overflow@^1.0.0
+447 silly packumentCache full:https://registry.npmjs.org/@rc-component%2foverflow cache-miss
+448 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fasync-validator 244ms (cache miss)
+449 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fasync-validator set size:undefined disposed:false
+450 silly fetch manifest @rc-component/virtual-list@^1.0.1
+451 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fvirtual-list cache-miss
+452 http fetch GET 200 https://registry.npmjs.org/stylis 303ms (cache miss)
+453 silly packumentCache full:https://registry.npmjs.org/stylis set size:undefined disposed:false
+454 silly fetch manifest @rc-component/context@^2.0.1
+455 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcontext cache-miss
+456 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fmini-decimal 259ms (cache miss)
+457 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmini-decimal set size:undefined disposed:false
+458 silly fetch manifest @rc-component/virtual-list@^1.0.1
+459 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fvirtual-list cache-miss
+460 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fportal 295ms (cache miss)
+461 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fportal set size:undefined disposed:false
+462 silly fetch manifest @rc-component/trigger@^3.7.1
+463 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftrigger cache-hit
+464 silly fetch manifest @rc-component/portal@^2.2.0
+465 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fportal cache-miss
+466 http cache https://registry.npmjs.org/@rc-component%2fportal 3ms (cache hit)
+467 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fportal set size:85199 disposed:false
+468 silly fetch manifest @rc-component/virtual-list@^1.0.1
+469 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fvirtual-list cache-miss
+470 http fetch GET 200 https://registry.npmjs.org/json2mq 482ms (cache miss)
+471 silly packumentCache full:https://registry.npmjs.org/json2mq set size:undefined disposed:false
+472 silly fetch manifest compute-scroll-into-view@^3.0.2
+473 silly packumentCache full:https://registry.npmjs.org/compute-scroll-into-view cache-miss
+474 http fetch GET 200 https://registry.npmjs.org/@rc-component%2foverflow 297ms (cache miss)
+475 silly packumentCache full:https://registry.npmjs.org/@rc-component%2foverflow set size:undefined disposed:false
+476 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fcontext 276ms (cache miss)
+477 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcontext set size:undefined disposed:false
+478 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fvirtual-list 302ms (cache miss)
+479 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fvirtual-list set size:undefined disposed:false
+480 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fvirtual-list 279ms (cache miss)
+481 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fvirtual-list set size:undefined disposed:false
+482 http fetch GET 200 https://registry.npmjs.org/@rc-component%2foverflow 563ms (cache miss)
+483 silly packumentCache full:https://registry.npmjs.org/@rc-component%2foverflow set size:undefined disposed:false
+484 http fetch GET 200 https://registry.npmjs.org/@rc-component%2foverflow 572ms (cache miss)
+485 silly packumentCache full:https://registry.npmjs.org/@rc-component%2foverflow set size:undefined disposed:false
+486 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fvirtual-list 785ms (cache miss)
+487 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fvirtual-list set size:undefined disposed:false
+488 http fetch GET 200 https://registry.npmjs.org/@emotion%2fhash 1633ms (cache miss)
+489 silly packumentCache full:https://registry.npmjs.org/@emotion%2fhash set size:undefined disposed:false
+490 http fetch GET 200 https://registry.npmjs.org/compute-scroll-into-view 2946ms (cache miss)
+491 silly packumentCache full:https://registry.npmjs.org/compute-scroll-into-view set size:undefined disposed:false
+492 silly placeDep ROOT @emotion/hash@0.8.0 OK for: @ant-design/cssinjs@2.1.2 want: ^0.8.0
+493 silly placeDep ROOT @emotion/unitless@0.7.5 OK for: @ant-design/cssinjs@2.1.2 want: ^0.7.5
+494 silly placeDep ROOT stylis@4.3.6 OK for: @ant-design/cssinjs@2.1.2 want: ^4.3.4
+495 silly placeDep ROOT json2mq@0.2.0 OK for: @ant-design/react-slick@2.0.0 want: ^0.2.0
+496 silly fetch manifest string-convert@^0.2.0
+497 silly packumentCache full:https://registry.npmjs.org/string-convert cache-miss
+498 http fetch GET 200 https://registry.npmjs.org/string-convert 262ms (cache miss)
+499 silly packumentCache full:https://registry.npmjs.org/string-convert set size:undefined disposed:false
+500 silly placeDep ROOT @rc-component/portal@2.2.0 OK for: @rc-component/dialog@1.8.4 want: ^2.1.0
+501 silly placeDep ROOT @rc-component/async-validator@5.1.0 OK for: @rc-component/form@1.8.0 want: ^5.1.0
+502 silly placeDep ROOT @rc-component/mini-decimal@1.1.3 OK for: @rc-component/input-number@1.6.2 want: ^1.0.1
+503 silly fetch manifest react@>=16.9.0
+504 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+505 http cache https://registry.npmjs.org/react 13ms (cache hit)
+506 silly packumentCache full:https://registry.npmjs.org/react set size:6561333 disposed:false
+507 silly fetch manifest react-dom@>=16.9.0
+508 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+509 http cache https://registry.npmjs.org/react-dom 11ms (cache hit)
+510 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8715553 disposed:false
+511 silly placeDep ROOT @rc-component/overflow@1.0.0 OK for: @rc-component/menu@1.2.0 want: ^1.0.0
+512 silly fetch manifest react@*
+513 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+514 http cache https://registry.npmjs.org/react 11ms (cache hit)
+515 silly packumentCache full:https://registry.npmjs.org/react set size:6561333 disposed:false
+516 silly fetch manifest react-dom@*
+517 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+518 http cache https://registry.npmjs.org/react-dom 10ms (cache hit)
+519 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8715553 disposed:false
+520 silly placeDep ROOT @rc-component/virtual-list@1.0.2 OK for: @rc-component/select@1.6.15 want: ^1.0.1
+521 silly placeDep ROOT @rc-component/context@2.0.1 OK for: @rc-component/table@1.9.1 want: ^2.0.1
+522 silly placeDep node_modules/echarts tslib@2.3.0 OK for: echarts@6.0.0 want: 2.3.0
+523 silly placeDep ROOT zrender@6.0.0 OK for: echarts@6.0.0 want: 6.0.0
+524 silly placeDep ROOT size-sensor@1.0.3 OK for: echarts-for-react@3.0.6 want: ^1.0.1
+525 silly placeDep ROOT string-convert@0.2.1 OK for: json2mq@0.2.0 want: ^0.2.0
+526 silly placeDep ROOT compute-scroll-into-view@3.1.1 OK for: scroll-into-view-if-needed@3.1.0 want: ^3.0.2
+527 silly placeDep node_modules/zrender tslib@2.3.0 OK for: zrender@6.0.0 want: 2.3.0
+528 silly reify moves {}
+529 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-wasm32-wasi
+530 silly reify mark deleted [
+530 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-wasm32-wasi'
+530 silly reify ]
+531 silly audit bulk request {
+531 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+531 silly audit   '@babel/code-frame': [ '7.29.0' ],
+531 silly audit   '@babel/compat-data': [ '7.29.0' ],
+531 silly audit   '@babel/core': [ '7.29.0' ],
+531 silly audit   '@babel/generator': [ '7.29.1' ],
+531 silly audit   '@babel/helper-compilation-targets': [ '7.28.6' ],
+531 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+531 silly audit   '@babel/helper-module-imports': [ '7.28.6' ],
+531 silly audit   '@babel/helper-module-transforms': [ '7.28.6' ],
+531 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+531 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+531 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+531 silly audit   '@babel/helpers': [ '7.29.2' ],
+531 silly audit   '@babel/parser': [ '7.29.2' ],
+531 silly audit   '@babel/template': [ '7.28.6' ],
+531 silly audit   '@babel/traverse': [ '7.29.0' ],
+531 silly audit   '@babel/types': [ '7.29.0' ],
+531 silly audit   '@emnapi/core': [ '1.9.1' ],
+531 silly audit   '@emnapi/runtime': [ '1.9.1' ],
+531 silly audit   '@emnapi/wasi-threads': [ '1.2.0' ],
+531 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+531 silly audit   'eslint-visitor-keys': [ '3.4.3', '5.0.1', '4.2.1' ],
+531 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+531 silly audit   '@eslint/config-array': [ '0.21.2' ],
+531 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+531 silly audit   '@eslint/core': [ '0.17.0' ],
+531 silly audit   '@eslint/eslintrc': [ '3.3.5' ],
+531 silly audit   '@eslint/js': [ '9.39.4' ],
+531 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+531 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+531 silly audit   '@humanfs/core': [ '0.19.1' ],
+531 silly audit   '@humanfs/node': [ '0.16.7' ],
+531 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+531 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+531 silly audit   '@img/colour': [ '1.1.0' ],
+531 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+531 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+531 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+531 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+531 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+531 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+531 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+531 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+531 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+531 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+531 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+531 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+531 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+531 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+531 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+531 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+531 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+531 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+531 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+531 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+531 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+531 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+531 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+531 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+531 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+531 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+531 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+531 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+531 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+531 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+531 silly audit   '@next/env': [ '16.2.1' ],
+531 silly audit   '@next/eslint-plugin-next': [ '16.2.1' ],
+531 silly audit   '@next/swc-darwin-arm64': [ '16.2.1' ],
+531 silly audit   '@next/swc-darwin-x64': [ '16.2.1' ],
+531 silly audit   '@next/swc-linux-arm64-gnu': [ '16.2.1' ],
+531 silly audit   '@next/swc-linux-arm64-musl': [ '16.2.1' ],
+531 silly audit   '@next/swc-linux-x64-gnu': [ '16.2.1' ],
+531 silly audit   '@next/swc-linux-x64-musl': [ '16.2.1' ],
+531 silly audit   '@next/swc-win32-arm64-msvc': [ '16.2.1' ],
+531 silly audit   '@next/swc-win32-x64-msvc': [ '16.2.1' ],
+531 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+531 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+531 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+531 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+531 silly audit   '@rtsao/scc': [ '1.1.0' ],
+531 silly audit   '@swc/helpers': [ '0.5.15' ],
+531 silly audit   '@tailwindcss/node': [ '4.2.2' ],
+531 silly audit   '@tailwindcss/oxide': [ '4.2.2' ],
+531 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.2.2' ],
+531 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.2.2' ],
+531 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.2.2' ],
+531 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.2.2' ],
+531 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.2.2' ],
+531 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.2.2' ],
+531 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.2.2' ],
+531 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.2.2' ],
+531 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.2.2' ],
+531 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.2.2' ],
+531 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.2.2' ],
+531 silly audit   '@tailwindcss/postcss': [ '4.2.2' ],
+531 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+531 silly audit   '@types/estree': [ '1.0.8' ],
+531 silly audit   '@types/json-schema': [ '7.0.15' ],
+531 silly audit   '@types/json5': [ '0.0.29' ],
+531 silly audit   '@types/node': [ '20.19.37' ],
+531 silly audit   '@types/react': [ '19.2.14' ],
+531 silly audit   '@types/react-dom': [ '19.2.3' ],
+531 silly audit   '@typescript-eslint/eslint-plugin': [ '8.57.2' ],
+531 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+531 silly audit   '@typescript-eslint/parser': [ '8.57.2' ],
+531 silly audit   '@typescript-eslint/project-service': [ '8.57.2' ],
+531 silly audit   '@typescript-eslint/scope-manager': [ '8.57.2' ],
+531 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.57.2' ],
+531 silly audit   '@typescript-eslint/type-utils': [ '8.57.2' ],
+531 silly audit   '@typescript-eslint/types': [ '8.57.2' ],
+531 silly audit   '@typescript-eslint/typescript-estree': [ '8.57.2' ],
+531 silly audit   'balanced-match': [ '4.0.4', '1.0.2' ],
+531 silly audit   'brace-expansion': [ '5.0.5', '1.1.12' ],
+531 silly audit   minimatch: [ '10.2.4', '3.1.5' ],
+531 silly audit   semver: [ '7.7.4', '6.3.1' ],
+531 silly audit   '@typescript-eslint/utils': [ '8.57.2' ],
+531 silly audit   '@typescript-eslint/visitor-keys': [ '8.57.2' ],
+531 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+531 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+531 silly audit   acorn: [ '8.16.0' ],
+531 silly audit   'acorn-jsx': [ '5.3.2' ],
+531 silly audit   ajv: [ '6.14.0' ],
+531 silly audit   'ansi-styles': [ '4.3.0' ],
+531 silly audit   argparse: [ '2.0.1' ],
+531 silly audit   'aria-query': [ '5.3.2' ],
+531 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+531 silly audit   'array-includes': [ '3.1.9' ],
+531 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+531 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+531 silly audit   'array.prototype.flat': [ '1.3.3' ],
+531 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+531 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+531 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+531 silly audit   'ast-types-flow': [ '0.0.8' ],
+531 silly audit   'async-function': [ '1.0.0' ],
+531 silly audit   'available-typed-arrays': [ '1.0.7' ],
+531 silly audit   'axe-core': [ '4.11.1' ],
+531 silly audit   'axobject-query': [ '4.1.0' ],
+531 silly audit   'baseline-browser-mapping': [ '2.10.10' ],
+531 silly audit   braces: [ '3.0.3' ],
+531 silly audit   browserslist: [ '4.28.1' ],
+531 silly audit   'call-bind': [ '1.0.8' ],
+531 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+531 silly audit   'call-bound': [ '1.0.4' ],
+531 silly audit   callsites: [ '3.1.0' ],
+531 silly audit   'caniuse-lite': [ '1.0.30001781' ],
+531 silly audit   chalk: [ '4.1.2' ],
+531 silly audit   'client-only': [ '0.0.1' ],
+531 silly audit   'color-convert': [ '2.0.1' ],
+531 silly audit   'color-name': [ '1.1.4' ],
+531 silly audit   'concat-map': [ '0.0.1' ],
+531 silly audit   'convert-source-map': [ '2.0.0' ],
+531 silly audit   'cross-spawn': [ '7.0.6' ],
+531 silly audit   csstype: [ '3.2.3' ],
+531 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+531 silly audit   'data-view-buffer': [ '1.0.2' ],
+531 silly audit   'data-view-byte-length': [ '1.0.2' ],
+531 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+531 silly audit   debug: [ '4.4.3', '3.2.7' ],
+531 silly audit   'deep-is': [ '0.1.4' ],
+531 silly audit   'define-data-property': [ '1.1.4' ],
+531 silly audit   'define-properties': [ '1.2.1' ],
+531 silly audit   'detect-libc': [ '2.1.2' ],
+531 silly audit   doctrine: [ '2.1.0' ],
+531 silly audit   'dunder-proto': [ '1.0.1' ],
+531 silly audit   'electron-to-chromium': [ '1.5.325' ],
+531 silly audit   'emoji-regex': [ '9.2.2' ],
+531 silly audit   'enhanced-resolve': [ '5.20.1' ],
+531 silly audit   'es-abstract': [ '1.24.1' ],
+531 silly audit   'es-define-property': [ '1.0.1' ],
+531 silly audit   'es-errors': [ '1.3.0' ],
+531 silly audit   'es-iterator-helpers': [ '1.3.1' ],
+531 silly audit   'es-object-atoms': [ '1.1.1' ],
+531 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+531 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+531 silly audit   'es-to-primitive': [ '1.3.0' ],
+531 silly audit   escalade: [ '3.2.0' ],
+531 silly audit   'escape-string-regexp': [ '4.0.0' ],
+531 silly audit   eslint: [ '9.39.4' ],
+531 silly audit   'eslint-config-next': [ '16.2.1' ],
+531 silly audit   globals: [ '16.4.0', '14.0.0' ],
+531 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+531 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+531 silly audit   'eslint-module-utils': [ '2.12.1' ],
+531 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+531 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+531 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+531 silly audit   'eslint-plugin-react-hooks': [ '7.0.1' ],
+531 silly audit   resolve: [ '2.0.0-next.6', '1.22.11' ],
+531 silly audit   'eslint-scope': [ '8.4.0' ],
+531 silly audit   espree: [ '10.4.0' ],
+531 silly audit   esquery: [ '1.7.0' ],
+531 silly audit   esrecurse: [ '4.3.0' ],
+531 silly audit   estraverse: [ '5.3.0' ],
+531 silly audit   esutils: [ '2.0.3' ],
+531 silly audit   'fast-deep-equal': [ '3.1.3' ],
+531 silly audit   'fast-glob': [ '3.3.1' ],
+531 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+531 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+531 silly audit   'fast-levenshtein': [ '2.0.6' ],
+531 silly audit   fastq: [ '1.20.1' ],
+531 silly audit   'file-entry-cache': [ '8.0.0' ],
+531 silly audit   'fill-range': [ '7.1.1' ],
+531 silly audit   'find-up': [ '5.0.0' ],
+531 silly audit   'flat-cache': [ '4.0.1' ],
+531 silly audit   flatted: [ '3.4.2' ],
+531 silly audit   'for-each': [ '0.3.5' ],
+531 silly audit   'function-bind': [ '1.1.2' ],
+531 silly audit   'function.prototype.name': [ '1.1.8' ],
+531 silly audit   'functions-have-names': [ '1.2.3' ],
+531 silly audit   'generator-function': [ '2.0.1' ],
+531 silly audit   gensync: [ '1.0.0-beta.2' ],
+531 silly audit   'get-intrinsic': [ '1.3.0' ],
+531 silly audit   'get-proto': [ '1.0.1' ],
+531 silly audit   'get-symbol-description': [ '1.1.0' ],
+531 silly audit   'get-tsconfig': [ '4.13.7' ],
+531 silly audit   globalthis: [ '1.0.4' ],
+531 silly audit   gopd: [ '1.2.0' ],
+531 silly audit   'graceful-fs': [ '4.2.11' ],
+531 silly audit   'has-bigints': [ '1.1.0' ],
+531 silly audit   'has-flag': [ '4.0.0' ],
+531 silly audit   'has-property-descriptors': [ '1.0.2' ],
+531 silly audit   'has-proto': [ '1.2.0' ],
+531 silly audit   'has-symbols': [ '1.1.0' ],
+531 silly audit   'has-tostringtag': [ '1.0.2' ],
+531 silly audit   hasown: [ '2.0.2' ],
+531 silly audit   'hermes-estree': [ '0.25.1' ],
+531 silly audit   'hermes-parser': [ '0.25.1' ],
+531 silly audit   'import-fresh': [ '3.3.1' ],
+531 silly audit   imurmurhash: [ '0.1.4' ],
+531 silly audit   'internal-slot': [ '1.1.0' ],
+531 silly audit   'is-array-buffer': [ '3.0.5' ],
+531 silly audit   'is-async-function': [ '2.1.1' ],
+531 silly audit   'is-bigint': [ '1.1.0' ],
+531 silly audit   'is-boolean-object': [ '1.2.2' ],
+531 silly audit   'is-bun-module': [ '2.0.0' ],
+531 silly audit   'is-callable': [ '1.2.7' ],
+531 silly audit   'is-core-module': [ '2.16.1' ],
+531 silly audit   'is-data-view': [ '1.0.2' ],
+531 silly audit   'is-date-object': [ '1.1.0' ],
+531 silly audit   'is-extglob': [ '2.1.1' ],
+531 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+531 silly audit   'is-generator-function': [ '1.1.2' ],
+531 silly audit   'is-glob': [ '4.0.3' ],
+531 silly audit   'is-map': [ '2.0.3' ],
+531 silly audit   'is-negative-zero': [ '2.0.3' ],
+531 silly audit   'is-number': [ '7.0.0' ],
+531 silly audit   'is-number-object': [ '1.1.1' ],
+531 silly audit   'is-regex': [ '1.2.1' ],
+531 silly audit   'is-set': [ '2.0.3' ],
+531 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+531 silly audit   'is-string': [ '1.1.1' ],
+531 silly audit   'is-symbol': [ '1.1.1' ],
+531 silly audit   'is-typed-array': [ '1.1.15' ],
+531 silly audit   'is-weakmap': [ '2.0.2' ],
+531 silly audit   'is-weakref': [ '1.1.1' ],
+531 silly audit   'is-weakset': [ '2.0.4' ],
+531 silly audit   isarray: [ '2.0.5' ],
+531 silly audit   isexe: [ '2.0.0' ],
+531 silly audit   'iterator.prototype': [ '1.1.5' ],
+531 silly audit   jiti: [ '2.6.1' ],
+531 silly audit   'js-tokens': [ '4.0.0' ],
+531 silly audit   'js-yaml': [ '4.1.1' ],
+531 silly audit   jsesc: [ '3.1.0' ],
+531 silly audit   'json-buffer': [ '3.0.1' ],
+531 silly audit   'json-schema-traverse': [ '0.4.1' ],
+531 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+531 silly audit   json5: [ '2.2.3', '1.0.2' ],
+531 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+531 silly audit   keyv: [ '4.5.4' ],
+531 silly audit   'language-subtag-registry': [ '0.3.23' ],
+531 silly audit   'language-tags': [ '1.0.9' ],
+531 silly audit   levn: [ '0.4.1' ],
+531 silly audit   lightningcss: [ '1.32.0' ],
+531 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+531 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+531 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+531 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+531 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+531 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+531 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+531 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+531 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+531 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+531 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+531 silly audit   'locate-path': [ '6.0.0' ],
+531 silly audit   'lodash.merge': [ '4.6.2' ],
+531 silly audit   'loose-envify': [ '1.4.0' ],
+531 silly audit   'lru-cache': [ '5.1.1' ],
+531 silly audit   'magic-string': [ '0.30.21' ],
+531 silly audit   'math-intrinsics': [ '1.1.0' ],
+531 silly audit   merge2: [ '1.4.1' ],
+531 silly audit   micromatch: [ '4.0.8' ],
+531 silly audit   minimist: [ '1.2.8' ],
+531 silly audit   ms: [ '2.1.3' ],
+531 silly audit   nanoid: [ '3.3.11' ],
+531 silly audit   'napi-postinstall': [ '0.3.4' ],
+531 silly audit   'natural-compare': [ '1.4.0' ],
+531 silly audit   next: [ '16.2.1' ],
+531 silly audit   postcss: [ '8.4.31', '8.5.8' ],
+531 silly audit   'node-exports-info': [ '1.6.0' ],
+531 silly audit   'node-releases': [ '2.0.36' ],
+531 silly audit   'object-assign': [ '4.1.1' ],
+531 silly audit   'object-inspect': [ '1.13.4' ],
+531 silly audit   'object-keys': [ '1.1.1' ],
+531 silly audit   'object.assign': [ '4.1.7' ],
+531 silly audit   'object.entries': [ '1.1.9' ],
+531 silly audit   'object.fromentries': [ '2.0.8' ],
+531 silly audit   'object.groupby': [ '1.0.3' ],
+531 silly audit   'object.values': [ '1.2.1' ],
+531 silly audit   optionator: [ '0.9.4' ],
+531 silly audit   'own-keys': [ '1.0.1' ],
+531 silly audit   'p-limit': [ '3.1.0' ],
+531 silly audit   'p-locate': [ '5.0.0' ],
+531 silly audit   'parent-module': [ '1.0.1' ],
+531 silly audit   'path-exists': [ '4.0.0' ],
+531 silly audit   'path-key': [ '3.1.1' ],
+531 silly audit   'path-parse': [ '1.0.7' ],
+531 silly audit   picocolors: [ '1.1.1' ],
+531 silly audit   picomatch: [ '2.3.2', '4.0.4' ],
+531 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+531 silly audit   'prelude-ls': [ '1.2.1' ],
+531 silly audit   'prop-types': [ '15.8.1' ],
+531 silly audit   punycode: [ '2.3.1' ],
+531 silly audit   'queue-microtask': [ '1.2.3' ],
+531 silly audit   react: [ '19.2.4' ],
+531 silly audit   'react-dom': [ '19.2.4' ],
+531 silly audit   'react-is': [ '16.13.1', '18.3.1' ],
+531 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+531 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+531 silly audit   'resolve-from': [ '4.0.0' ],
+531 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+531 silly audit   reusify: [ '1.1.0' ],
+531 silly audit   'run-parallel': [ '1.2.0' ],
+531 silly audit   'safe-array-concat': [ '1.1.3' ],
+531 silly audit   'safe-push-apply': [ '1.0.0' ],
+531 silly audit   'safe-regex-test': [ '1.1.0' ],
+531 silly audit   scheduler: [ '0.27.0' ],
+531 silly audit   'set-function-length': [ '1.2.2' ],
+531 silly audit   'set-function-name': [ '2.0.2' ],
+531 silly audit   'set-proto': [ '1.0.0' ],
+531 silly audit   sharp: [ '0.34.5' ],
+531 silly audit   'shebang-command': [ '2.0.0' ],
+531 silly audit   'shebang-regex': [ '3.0.0' ],
+531 silly audit   'side-channel': [ '1.1.0' ],
+531 silly audit   'side-channel-list': [ '1.0.0' ],
+531 silly audit   'side-channel-map': [ '1.0.1' ],
+531 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+531 silly audit   'source-map-js': [ '1.2.1' ],
+531 silly audit   'stable-hash': [ '0.0.5' ],
+531 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+531 silly audit   'string.prototype.includes': [ '2.0.1' ],
+531 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+531 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+531 silly audit   'string.prototype.trim': [ '1.2.10' ],
+531 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+531 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+531 silly audit   'strip-bom': [ '3.0.0' ],
+531 silly audit   'strip-json-comments': [ '3.1.1' ],
+531 silly audit   'styled-jsx': [ '5.1.6' ],
+531 silly audit   'supports-color': [ '7.2.0' ],
+531 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+531 silly audit   tailwindcss: [ '4.2.2' ],
+531 silly audit   tapable: [ '2.3.2' ],
+531 silly audit   tinyglobby: [ '0.2.15' ],
+531 silly audit   fdir: [ '6.5.0' ],
+531 silly audit   'to-regex-range': [ '5.0.1' ],
+531 silly audit   'ts-api-utils': [ '2.5.0' ],
+531 silly audit   'tsconfig-paths': [ '3.15.0' ],
+531 silly audit   tslib: [ '2.8.1', '2.3.0' ],
+531 silly audit   'type-check': [ '0.4.0' ],
+531 silly audit   'typed-array-buffer': [ '1.0.3' ],
+531 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+531 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+531 silly audit   'typed-array-length': [ '1.0.7' ],
+531 silly audit   typescript: [ '5.9.3' ],
+531 silly audit   'typescript-eslint': [ '8.57.2' ],
+531 silly audit   'unbox-primitive': [ '1.1.0' ],
+531 silly audit   'undici-types': [ '6.21.0' ],
+531 silly audit   'unrs-resolver': [ '1.11.1' ],
+531 silly audit   'update-browserslist-db': [ '1.2.3' ],
+531 silly audit   'uri-js': [ '4.4.1' ],
+531 silly audit   which: [ '2.0.2' ],
+531 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+531 silly audit   'which-builtin-type': [ '1.2.1' ],
+531 silly audit   'which-collection': [ '1.0.2' ],
+531 silly audit   'which-typed-array': [ '1.1.20' ],
+531 silly audit   'word-wrap': [ '1.2.5' ],
+531 silly audit   yallist: [ '3.1.1' ],
+531 silly audit   'yocto-queue': [ '0.1.0' ],
+531 silly audit   'zod-validation-error': [ '4.0.2' ],
+531 silly audit   '@ant-design/icons': [ '6.1.0' ],
+531 silly audit   '@tanstack/react-query': [ '5.95.2' ],
+531 silly audit   antd: [ '6.3.4' ],
+531 silly audit   dayjs: [ '1.11.20' ],
+531 silly audit   echarts: [ '6.0.0' ],
+531 silly audit   'echarts-for-react': [ '3.0.6' ],
+531 silly audit   zod: [ '4.3.6' ],
+531 silly audit   '@ant-design/colors': [ '8.0.1' ],
+531 silly audit   '@ant-design/icons-svg': [ '4.4.2' ],
+531 silly audit   '@rc-component/util': [ '1.10.0' ],
+531 silly audit   clsx: [ '2.1.1' ],
+531 silly audit   '@ant-design/fast-color': [ '3.0.1' ],
+531 silly audit   'is-mobile': [ '5.0.0' ],
+531 silly audit   '@tanstack/query-core': [ '5.95.2' ],
+531 silly audit   '@ant-design/cssinjs': [ '2.1.2' ],
+531 silly audit   '@ant-design/cssinjs-utils': [ '2.1.2' ],
+531 silly audit   '@ant-design/react-slick': [ '2.0.0' ],
+531 silly audit   '@babel/runtime': [ '7.29.2' ],
+531 silly audit   '@rc-component/cascader': [ '1.14.0' ],
+531 silly audit   '@rc-component/checkbox': [ '2.0.0' ],
+531 silly audit   '@rc-component/collapse': [ '1.2.0' ],
+531 silly audit   '@rc-component/color-picker': [ '3.1.1' ],
+531 silly audit   '@rc-component/dialog': [ '1.8.4' ],
+531 silly audit   '@rc-component/drawer': [ '1.4.2' ],
+531 silly audit   '@rc-component/dropdown': [ '1.0.2' ],
+531 silly audit   '@rc-component/form': [ '1.8.0' ],
+531 silly audit   '@rc-component/image': [ '1.8.0' ],
+531 silly audit   '@rc-component/input': [ '1.1.2' ],
+531 silly audit   '@rc-component/input-number': [ '1.6.2' ],
+531 silly audit   '@rc-component/mentions': [ '1.6.0' ],
+531 silly audit   '@rc-component/menu': [ '1.2.0' ],
+531 silly audit   '@rc-component/motion': [ '1.3.1' ],
+531 silly audit   '@rc-component/mutate-observer': [ '2.0.1' ],
+531 silly audit   '@rc-component/notification': [ '1.2.0' ],
+531 silly audit   '@rc-component/pagination': [ '1.2.0' ],
+531 silly audit   '@rc-component/picker': [ '1.9.1' ],
+531 silly audit   '@rc-component/progress': [ '1.0.2' ],
+531 silly audit   '@rc-component/qrcode': [ '1.1.1' ],
+531 silly audit   '@rc-component/rate': [ '1.0.1' ],
+531 silly audit   '@rc-component/resize-observer': [ '1.1.2' ],
+531 silly audit   '@rc-component/segmented': [ '1.3.0' ],
+531 silly audit   '@rc-component/select': [ '1.6.15' ],
+531 silly audit   '@rc-component/slider': [ '1.0.1' ],
+531 silly audit   '@rc-component/steps': [ '1.2.2' ],
+531 silly audit   '@rc-component/switch': [ '1.0.3' ],
+531 silly audit   '@rc-component/table': [ '1.9.1' ],
+531 silly audit   '@rc-component/tabs': [ '1.7.0' ],
+531 silly audit   '@rc-component/textarea': [ '1.1.2' ],
+531 silly audit   '@rc-component/tooltip': [ '1.4.0' ],
+531 silly audit   '@rc-component/tour': [ '2.3.0' ],
+531 silly audit   '@rc-component/tree': [ '1.2.4' ],
+531 silly audit   '@rc-component/tree-select': [ '1.8.0' ],
+531 silly audit   '@rc-component/trigger': [ '3.9.0' ],
+531 silly audit   '@rc-component/upload': [ '1.1.0' ],
+531 silly audit   'scroll-into-view-if-needed': [ '3.1.0' ],
+531 silly audit   'throttle-debounce': [ '5.0.2' ],
+531 silly audit   '@emotion/hash': [ '0.8.0' ],
+531 silly audit   '@emotion/unitless': [ '0.7.5' ],
+531 silly audit   stylis: [ '4.3.6' ],
+531 silly audit   json2mq: [ '0.2.0' ],
+531 silly audit   '@rc-component/portal': [ '2.2.0' ],
+531 silly audit   '@rc-component/async-validator': [ '5.1.0' ],
+531 silly audit   '@rc-component/mini-decimal': [ '1.1.3' ],
+531 silly audit   '@rc-component/overflow': [ '1.0.0' ],
+531 silly audit   '@rc-component/virtual-list': [ '1.0.2' ],
+531 silly audit   '@rc-component/context': [ '2.0.1' ],
+531 silly audit   zrender: [ '6.0.0' ],
+531 silly audit   'size-sensor': [ '1.0.3' ],
+531 silly audit   'string-convert': [ '0.2.1' ],
+531 silly audit   'compute-scroll-into-view': [ '3.1.1' ],
+531 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.2.2' ]
+531 silly audit }
+532 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-win32-x64-msvc
+533 silly reify mark deleted [
+533 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-win32-x64-msvc'
+533 silly reify ]
+534 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-win32-arm64-msvc
+535 silly reify mark deleted [
+535 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-win32-arm64-msvc'
+535 silly reify ]
+536 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-linux-x64-musl
+537 silly reify mark deleted [
+537 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-linux-x64-musl'
+537 silly reify ]
+538 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-linux-x64-gnu
+539 silly reify mark deleted [
+539 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-linux-x64-gnu'
+539 silly reify ]
+540 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-linux-arm64-musl
+541 silly reify mark deleted [
+541 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-linux-arm64-musl'
+541 silly reify ]
+542 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-linux-arm64-gnu
+543 silly reify mark deleted [
+543 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-linux-arm64-gnu'
+543 silly reify ]
+544 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-linux-arm-gnueabihf
+545 silly reify mark deleted [
+545 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-linux-arm-gnueabihf'
+545 silly reify ]
+546 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-freebsd-x64
+547 silly reify mark deleted [
+547 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-freebsd-x64'
+547 silly reify ]
+548 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-darwin-x64
+549 silly reify mark deleted [
+549 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-darwin-x64'
+549 silly reify ]
+550 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-android-arm64
+551 silly reify mark deleted [
+551 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/lightningcss-android-arm64'
+551 silly reify ]
+552 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-win32-x64-msvc
+553 silly reify mark deleted [
+553 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+553 silly reify ]
+554 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+555 silly reify mark deleted [
+555 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+555 silly reify ]
+556 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+557 silly reify mark deleted [
+557 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+557 silly reify ]
+558 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-wasm32-wasi
+559 silly reify mark deleted [
+559 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-wasm32-wasi'
+559 silly reify ]
+560 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-x64-musl
+561 silly reify mark deleted [
+561 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-x64-musl'
+561 silly reify ]
+562 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-x64-gnu
+563 silly reify mark deleted [
+563 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+563 silly reify ]
+564 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+565 silly reify mark deleted [
+565 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+565 silly reify ]
+566 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+567 silly reify mark deleted [
+567 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+567 silly reify ]
+568 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+569 silly reify mark deleted [
+569 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+569 silly reify ]
+570 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+571 silly reify mark deleted [
+571 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+571 silly reify ]
+572 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-arm64-musl
+573 silly reify mark deleted [
+573 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+573 silly reify ]
+574 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+575 silly reify mark deleted [
+575 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+575 silly reify ]
+576 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+577 silly reify mark deleted [
+577 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+577 silly reify ]
+578 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+579 silly reify mark deleted [
+579 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+579 silly reify ]
+580 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-freebsd-x64
+581 silly reify mark deleted [
+581 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-freebsd-x64'
+581 silly reify ]
+582 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-darwin-x64
+583 silly reify mark deleted [
+583 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-darwin-x64'
+583 silly reify ]
+584 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-android-arm64
+585 silly reify mark deleted [
+585 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-android-arm64'
+585 silly reify ]
+586 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-android-arm-eabi
+587 silly reify mark deleted [
+587 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@unrs/resolver-binding-android-arm-eabi'
+587 silly reify ]
+588 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-win32-x64-msvc
+589 silly reify mark deleted [
+589 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+589 silly reify ]
+590 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-win32-arm64-msvc
+591 silly reify mark deleted [
+591 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+591 silly reify ]
+592 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-linux-x64-musl
+593 silly reify mark deleted [
+593 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-linux-x64-musl'
+593 silly reify ]
+594 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-linux-x64-gnu
+595 silly reify mark deleted [
+595 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-linux-x64-gnu'
+595 silly reify ]
+596 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-linux-arm64-musl
+597 silly reify mark deleted [
+597 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+597 silly reify ]
+598 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-linux-arm64-gnu
+599 silly reify mark deleted [
+599 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+599 silly reify ]
+600 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+601 silly reify mark deleted [
+601 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+601 silly reify ]
+602 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-freebsd-x64
+603 silly reify mark deleted [
+603 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-freebsd-x64'
+603 silly reify ]
+604 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-darwin-x64
+605 silly reify mark deleted [
+605 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-darwin-x64'
+605 silly reify ]
+606 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-android-arm64
+607 silly reify mark deleted [
+607 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@tailwindcss/oxide-android-arm64'
+607 silly reify ]
+608 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-win32-x64-msvc
+609 silly reify mark deleted [
+609 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-win32-x64-msvc'
+609 silly reify ]
+610 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-win32-arm64-msvc
+611 silly reify mark deleted [
+611 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-win32-arm64-msvc'
+611 silly reify ]
+612 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-linux-x64-musl
+613 silly reify mark deleted [
+613 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-linux-x64-musl'
+613 silly reify ]
+614 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-linux-x64-gnu
+615 silly reify mark deleted [
+615 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-linux-x64-gnu'
+615 silly reify ]
+616 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-linux-arm64-musl
+617 silly reify mark deleted [
+617 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-linux-arm64-musl'
+617 silly reify ]
+618 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-linux-arm64-gnu
+619 silly reify mark deleted [
+619 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-linux-arm64-gnu'
+619 silly reify ]
+620 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-darwin-x64
+621 silly reify mark deleted [
+621 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@next/swc-darwin-x64'
+621 silly reify ]
+622 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-win32-x64
+623 silly reify mark deleted [
+623 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-win32-x64'
+623 silly reify ]
+624 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-win32-ia32
+625 silly reify mark deleted [
+625 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-win32-ia32'
+625 silly reify ]
+626 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-win32-arm64
+627 silly reify mark deleted [
+627 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-win32-arm64'
+627 silly reify ]
+628 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-wasm32
+629 silly reify mark deleted [
+629 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-wasm32'
+629 silly reify ]
+630 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linuxmusl-x64
+631 silly reify mark deleted [
+631 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linuxmusl-x64'
+631 silly reify ]
+632 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linuxmusl-arm64
+633 silly reify mark deleted [
+633 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linuxmusl-arm64'
+633 silly reify ]
+634 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linux-x64
+635 silly reify mark deleted [
+635 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linux-x64'
+635 silly reify ]
+636 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linux-s390x
+637 silly reify mark deleted [
+637 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linux-s390x'
+637 silly reify ]
+638 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linux-riscv64
+639 silly reify mark deleted [
+639 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linux-riscv64'
+639 silly reify ]
+640 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linux-ppc64
+641 silly reify mark deleted [
+641 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linux-ppc64'
+641 silly reify ]
+642 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linux-arm64
+643 silly reify mark deleted [
+643 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linux-arm64'
+643 silly reify ]
+644 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linux-arm
+645 silly reify mark deleted [
+645 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-linux-arm'
+645 silly reify ]
+646 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linuxmusl-x64
+647 silly reify mark deleted [
+647 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linuxmusl-x64'
+647 silly reify ]
+648 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linuxmusl-arm64
+649 silly reify mark deleted [
+649 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+649 silly reify ]
+650 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linux-x64
+651 silly reify mark deleted [
+651 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linux-x64'
+651 silly reify ]
+652 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linux-s390x
+653 silly reify mark deleted [
+653 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linux-s390x'
+653 silly reify ]
+654 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linux-riscv64
+655 silly reify mark deleted [
+655 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linux-riscv64'
+655 silly reify ]
+656 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linux-ppc64
+657 silly reify mark deleted [
+657 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linux-ppc64'
+657 silly reify ]
+658 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linux-arm64
+659 silly reify mark deleted [
+659 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linux-arm64'
+659 silly reify ]
+660 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linux-arm
+661 silly reify mark deleted [
+661 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-linux-arm'
+661 silly reify ]
+662 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-darwin-x64
+663 silly reify mark deleted [
+663 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-libvips-darwin-x64'
+663 silly reify ]
+664 verbose reify failed optional dependency /Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-darwin-x64
+665 silly reify mark deleted [
+665 silly reify   '/Users/chenjunhao/Downloads/1m/silver-age-platform/node_modules/@img/sharp-darwin-x64'
+665 silly reify ]
+666 http cache compute-scroll-into-view@https://registry.npmjs.org/compute-scroll-into-view/-/compute-scroll-into-view-3.1.1.tgz 0ms (cache hit)
+667 http cache string-convert@https://registry.npmjs.org/string-convert/-/string-convert-0.2.1.tgz 0ms (cache hit)
+668 http cache size-sensor@https://registry.npmjs.org/size-sensor/-/size-sensor-1.0.3.tgz 0ms (cache hit)
+669 http cache @rc-component/context@https://registry.npmjs.org/@rc-component/context/-/context-2.0.1.tgz 0ms (cache hit)
+670 http cache @rc-component/virtual-list@https://registry.npmjs.org/@rc-component/virtual-list/-/virtual-list-1.0.2.tgz 0ms (cache hit)
+671 http cache @rc-component/mini-decimal@https://registry.npmjs.org/@rc-component/mini-decimal/-/mini-decimal-1.1.3.tgz 0ms (cache hit)
+672 http cache @rc-component/overflow@https://registry.npmjs.org/@rc-component/overflow/-/overflow-1.0.0.tgz 0ms (cache hit)
+673 http cache zrender@https://registry.npmjs.org/zrender/-/zrender-6.0.0.tgz 0ms (cache hit)
+674 http cache @rc-component/portal@https://registry.npmjs.org/@rc-component/portal/-/portal-2.2.0.tgz 0ms (cache hit)
+675 http cache json2mq@https://registry.npmjs.org/json2mq/-/json2mq-0.2.0.tgz 0ms (cache hit)
+676 http cache stylis@https://registry.npmjs.org/stylis/-/stylis-4.3.6.tgz 0ms (cache hit)
+677 http cache @rc-component/async-validator@https://registry.npmjs.org/@rc-component/async-validator/-/async-validator-5.1.0.tgz 0ms (cache hit)
+678 http cache @emotion/unitless@https://registry.npmjs.org/@emotion/unitless/-/unitless-0.7.5.tgz 0ms (cache hit)
+679 http cache @emotion/hash@https://registry.npmjs.org/@emotion/hash/-/hash-0.8.0.tgz 0ms (cache hit)
+680 http cache throttle-debounce@https://registry.npmjs.org/throttle-debounce/-/throttle-debounce-5.0.2.tgz 0ms (cache hit)
+681 http cache @rc-component/trigger@https://registry.npmjs.org/@rc-component/trigger/-/trigger-3.9.0.tgz 0ms (cache hit)
+682 http cache @rc-component/tree-select@https://registry.npmjs.org/@rc-component/tree-select/-/tree-select-1.8.0.tgz 0ms (cache hit)
+683 http cache scroll-into-view-if-needed@https://registry.npmjs.org/scroll-into-view-if-needed/-/scroll-into-view-if-needed-3.1.0.tgz 0ms (cache hit)
+684 http cache @rc-component/tree@https://registry.npmjs.org/@rc-component/tree/-/tree-1.2.4.tgz 0ms (cache hit)
+685 http cache @rc-component/textarea@https://registry.npmjs.org/@rc-component/textarea/-/textarea-1.1.2.tgz 0ms (cache hit)
+686 http cache @rc-component/upload@https://registry.npmjs.org/@rc-component/upload/-/upload-1.1.0.tgz 0ms (cache hit)
+687 http cache @rc-component/tooltip@https://registry.npmjs.org/@rc-component/tooltip/-/tooltip-1.4.0.tgz 0ms (cache hit)
+688 http cache @rc-component/tour@https://registry.npmjs.org/@rc-component/tour/-/tour-2.3.0.tgz 0ms (cache hit)
+689 http cache @rc-component/table@https://registry.npmjs.org/@rc-component/table/-/table-1.9.1.tgz 0ms (cache hit)
+690 http cache @rc-component/steps@https://registry.npmjs.org/@rc-component/steps/-/steps-1.2.2.tgz 0ms (cache hit)
+691 http cache @rc-component/tabs@https://registry.npmjs.org/@rc-component/tabs/-/tabs-1.7.0.tgz 0ms (cache hit)
+692 http cache @rc-component/switch@https://registry.npmjs.org/@rc-component/switch/-/switch-1.0.3.tgz 0ms (cache hit)
+693 http cache @rc-component/slider@https://registry.npmjs.org/@rc-component/slider/-/slider-1.0.1.tgz 0ms (cache hit)
+694 http cache @rc-component/resize-observer@https://registry.npmjs.org/@rc-component/resize-observer/-/resize-observer-1.1.2.tgz 0ms (cache hit)
+695 http cache @rc-component/select@https://registry.npmjs.org/@rc-component/select/-/select-1.6.15.tgz 0ms (cache hit)
+696 http cache @rc-component/segmented@https://registry.npmjs.org/@rc-component/segmented/-/segmented-1.3.0.tgz 0ms (cache hit)
+697 http cache @rc-component/picker@https://registry.npmjs.org/@rc-component/picker/-/picker-1.9.1.tgz 0ms (cache hit)
+698 http cache @rc-component/pagination@https://registry.npmjs.org/@rc-component/pagination/-/pagination-1.2.0.tgz 0ms (cache hit)
+699 http cache @rc-component/notification@https://registry.npmjs.org/@rc-component/notification/-/notification-1.2.0.tgz 0ms (cache hit)
+700 http cache @rc-component/mutate-observer@https://registry.npmjs.org/@rc-component/mutate-observer/-/mutate-observer-2.0.1.tgz 0ms (cache hit)
+701 http cache @rc-component/motion@https://registry.npmjs.org/@rc-component/motion/-/motion-1.3.1.tgz 0ms (cache hit)
+702 http cache @rc-component/menu@https://registry.npmjs.org/@rc-component/menu/-/menu-1.2.0.tgz 0ms (cache hit)
+703 http cache @rc-component/mentions@https://registry.npmjs.org/@rc-component/mentions/-/mentions-1.6.0.tgz 0ms (cache hit)
+704 http cache @rc-component/image@https://registry.npmjs.org/@rc-component/image/-/image-1.8.0.tgz 0ms (cache hit)
+705 http cache @rc-component/input@https://registry.npmjs.org/@rc-component/input/-/input-1.1.2.tgz 0ms (cache hit)
+706 http cache @rc-component/drawer@https://registry.npmjs.org/@rc-component/drawer/-/drawer-1.4.2.tgz 0ms (cache hit)
+707 http cache @rc-component/form@https://registry.npmjs.org/@rc-component/form/-/form-1.8.0.tgz 0ms (cache hit)
+708 http cache @rc-component/input-number@https://registry.npmjs.org/@rc-component/input-number/-/input-number-1.6.2.tgz 0ms (cache hit)
+709 http cache @rc-component/dialog@https://registry.npmjs.org/@rc-component/dialog/-/dialog-1.8.4.tgz 0ms (cache hit)
+710 http cache @rc-component/dropdown@https://registry.npmjs.org/@rc-component/dropdown/-/dropdown-1.0.2.tgz 0ms (cache hit)
+711 http cache @rc-component/color-picker@https://registry.npmjs.org/@rc-component/color-picker/-/color-picker-3.1.1.tgz 0ms (cache hit)
+712 http cache @rc-component/checkbox@https://registry.npmjs.org/@rc-component/checkbox/-/checkbox-2.0.0.tgz 0ms (cache hit)
+713 http cache @rc-component/collapse@https://registry.npmjs.org/@rc-component/collapse/-/collapse-1.2.0.tgz 0ms (cache hit)
+714 http cache @rc-component/cascader@https://registry.npmjs.org/@rc-component/cascader/-/cascader-1.14.0.tgz 0ms (cache hit)
+715 http cache @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz 0ms (cache hit)
+716 http cache @ant-design/cssinjs-utils@https://registry.npmjs.org/@ant-design/cssinjs-utils/-/cssinjs-utils-2.1.2.tgz 0ms (cache hit)
+717 http cache @ant-design/react-slick@https://registry.npmjs.org/@ant-design/react-slick/-/react-slick-2.0.0.tgz 0ms (cache hit)
+718 http cache @ant-design/cssinjs@https://registry.npmjs.org/@ant-design/cssinjs/-/cssinjs-2.1.2.tgz 0ms (cache hit)
+719 http cache is-mobile@https://registry.npmjs.org/is-mobile/-/is-mobile-5.0.0.tgz 0ms (cache hit)
+720 http cache @ant-design/fast-color@https://registry.npmjs.org/@ant-design/fast-color/-/fast-color-3.0.1.tgz 0ms (cache hit)
+721 http cache @tanstack/query-core@https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.95.2.tgz 0ms (cache hit)
+722 http cache clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 0ms (cache hit)
+723 http cache @rc-component/qrcode@https://registry.npmjs.org/@rc-component/qrcode/-/qrcode-1.1.1.tgz 0ms (cache hit)
+724 http cache @rc-component/progress@https://registry.npmjs.org/@rc-component/progress/-/progress-1.0.2.tgz 0ms (cache hit)
+725 http cache @rc-component/rate@https://registry.npmjs.org/@rc-component/rate/-/rate-1.0.1.tgz 0ms (cache hit)
+726 http cache @ant-design/colors@https://registry.npmjs.org/@ant-design/colors/-/colors-8.0.1.tgz 0ms (cache hit)
+727 http cache @rc-component/util@https://registry.npmjs.org/@rc-component/util/-/util-1.10.0.tgz 0ms (cache hit)
+728 http cache @tanstack/react-query@https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.95.2.tgz 0ms (cache hit)
+729 http cache echarts-for-react@https://registry.npmjs.org/echarts-for-react/-/echarts-for-react-3.0.6.tgz 0ms (cache hit)
+730 http cache echarts@https://registry.npmjs.org/echarts/-/echarts-6.0.0.tgz 0ms (cache hit)
+731 http cache dayjs@https://registry.npmjs.org/dayjs/-/dayjs-1.11.20.tgz 0ms (cache hit)
+732 http cache antd@https://registry.npmjs.org/antd/-/antd-6.3.4.tgz 0ms (cache hit)
+733 http cache @ant-design/icons@https://registry.npmjs.org/@ant-design/icons/-/icons-6.1.0.tgz 0ms (cache hit)
+734 http cache @ant-design/icons-svg@https://registry.npmjs.org/@ant-design/icons-svg/-/icons-svg-4.4.2.tgz 0ms (cache hit)
+735 silly tarball no local data for compute-scroll-into-view@https://registry.npmjs.org/compute-scroll-into-view/-/compute-scroll-into-view-3.1.1.tgz. Extracting by manifest.
+736 silly tarball no local data for string-convert@https://registry.npmjs.org/string-convert/-/string-convert-0.2.1.tgz. Extracting by manifest.
+737 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.3.0.tgz 0ms (cache hit)
+738 http cache react-is@https://registry.npmjs.org/react-is/-/react-is-18.3.1.tgz 0ms (cache hit)
+739 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.3.0.tgz 0ms (cache hit)
+740 silly tarball no local data for size-sensor@https://registry.npmjs.org/size-sensor/-/size-sensor-1.0.3.tgz. Extracting by manifest.
+741 silly tarball no local data for @rc-component/context@https://registry.npmjs.org/@rc-component/context/-/context-2.0.1.tgz. Extracting by manifest.
+742 silly tarball no local data for @rc-component/virtual-list@https://registry.npmjs.org/@rc-component/virtual-list/-/virtual-list-1.0.2.tgz. Extracting by manifest.
+743 silly tarball no local data for @rc-component/mini-decimal@https://registry.npmjs.org/@rc-component/mini-decimal/-/mini-decimal-1.1.3.tgz. Extracting by manifest.
+744 silly tarball no local data for @rc-component/overflow@https://registry.npmjs.org/@rc-component/overflow/-/overflow-1.0.0.tgz. Extracting by manifest.
+745 silly tarball no local data for zrender@https://registry.npmjs.org/zrender/-/zrender-6.0.0.tgz. Extracting by manifest.
+746 silly tarball no local data for @rc-component/portal@https://registry.npmjs.org/@rc-component/portal/-/portal-2.2.0.tgz. Extracting by manifest.
+747 silly tarball no local data for json2mq@https://registry.npmjs.org/json2mq/-/json2mq-0.2.0.tgz. Extracting by manifest.
+748 silly tarball no local data for stylis@https://registry.npmjs.org/stylis/-/stylis-4.3.6.tgz. Extracting by manifest.
+749 silly tarball no local data for @rc-component/async-validator@https://registry.npmjs.org/@rc-component/async-validator/-/async-validator-5.1.0.tgz. Extracting by manifest.
+750 silly tarball no local data for @emotion/unitless@https://registry.npmjs.org/@emotion/unitless/-/unitless-0.7.5.tgz. Extracting by manifest.
+751 silly tarball no local data for @emotion/hash@https://registry.npmjs.org/@emotion/hash/-/hash-0.8.0.tgz. Extracting by manifest.
+752 silly tarball no local data for throttle-debounce@https://registry.npmjs.org/throttle-debounce/-/throttle-debounce-5.0.2.tgz. Extracting by manifest.
+753 silly tarball no local data for @rc-component/trigger@https://registry.npmjs.org/@rc-component/trigger/-/trigger-3.9.0.tgz. Extracting by manifest.
+754 silly tarball no local data for @rc-component/tree-select@https://registry.npmjs.org/@rc-component/tree-select/-/tree-select-1.8.0.tgz. Extracting by manifest.
+755 silly tarball no local data for scroll-into-view-if-needed@https://registry.npmjs.org/scroll-into-view-if-needed/-/scroll-into-view-if-needed-3.1.0.tgz. Extracting by manifest.
+756 silly tarball no local data for @rc-component/tree@https://registry.npmjs.org/@rc-component/tree/-/tree-1.2.4.tgz. Extracting by manifest.
+757 silly tarball no local data for @rc-component/textarea@https://registry.npmjs.org/@rc-component/textarea/-/textarea-1.1.2.tgz. Extracting by manifest.
+758 silly tarball no local data for @rc-component/upload@https://registry.npmjs.org/@rc-component/upload/-/upload-1.1.0.tgz. Extracting by manifest.
+759 silly tarball no local data for @rc-component/tooltip@https://registry.npmjs.org/@rc-component/tooltip/-/tooltip-1.4.0.tgz. Extracting by manifest.
+760 silly tarball no local data for @rc-component/tour@https://registry.npmjs.org/@rc-component/tour/-/tour-2.3.0.tgz. Extracting by manifest.
+761 silly tarball no local data for @rc-component/table@https://registry.npmjs.org/@rc-component/table/-/table-1.9.1.tgz. Extracting by manifest.
+762 silly tarball no local data for @rc-component/steps@https://registry.npmjs.org/@rc-component/steps/-/steps-1.2.2.tgz. Extracting by manifest.
+763 silly tarball no local data for @rc-component/tabs@https://registry.npmjs.org/@rc-component/tabs/-/tabs-1.7.0.tgz. Extracting by manifest.
+764 silly tarball no local data for @rc-component/switch@https://registry.npmjs.org/@rc-component/switch/-/switch-1.0.3.tgz. Extracting by manifest.
+765 silly tarball no local data for @rc-component/slider@https://registry.npmjs.org/@rc-component/slider/-/slider-1.0.1.tgz. Extracting by manifest.
+766 silly tarball no local data for @rc-component/resize-observer@https://registry.npmjs.org/@rc-component/resize-observer/-/resize-observer-1.1.2.tgz. Extracting by manifest.
+767 silly tarball no local data for @rc-component/select@https://registry.npmjs.org/@rc-component/select/-/select-1.6.15.tgz. Extracting by manifest.
+768 silly tarball no local data for @rc-component/segmented@https://registry.npmjs.org/@rc-component/segmented/-/segmented-1.3.0.tgz. Extracting by manifest.
+769 silly tarball no local data for @rc-component/picker@https://registry.npmjs.org/@rc-component/picker/-/picker-1.9.1.tgz. Extracting by manifest.
+770 silly tarball no local data for @rc-component/pagination@https://registry.npmjs.org/@rc-component/pagination/-/pagination-1.2.0.tgz. Extracting by manifest.
+771 silly tarball no local data for @rc-component/notification@https://registry.npmjs.org/@rc-component/notification/-/notification-1.2.0.tgz. Extracting by manifest.
+772 silly tarball no local data for @rc-component/mutate-observer@https://registry.npmjs.org/@rc-component/mutate-observer/-/mutate-observer-2.0.1.tgz. Extracting by manifest.
+773 silly tarball no local data for @rc-component/motion@https://registry.npmjs.org/@rc-component/motion/-/motion-1.3.1.tgz. Extracting by manifest.
+774 silly tarball no local data for @rc-component/menu@https://registry.npmjs.org/@rc-component/menu/-/menu-1.2.0.tgz. Extracting by manifest.
+775 silly tarball no local data for @rc-component/mentions@https://registry.npmjs.org/@rc-component/mentions/-/mentions-1.6.0.tgz. Extracting by manifest.
+776 silly tarball no local data for @rc-component/image@https://registry.npmjs.org/@rc-component/image/-/image-1.8.0.tgz. Extracting by manifest.
+777 silly tarball no local data for @rc-component/input@https://registry.npmjs.org/@rc-component/input/-/input-1.1.2.tgz. Extracting by manifest.
+778 silly tarball no local data for @rc-component/drawer@https://registry.npmjs.org/@rc-component/drawer/-/drawer-1.4.2.tgz. Extracting by manifest.
+779 silly tarball no local data for @rc-component/form@https://registry.npmjs.org/@rc-component/form/-/form-1.8.0.tgz. Extracting by manifest.
+780 silly tarball no local data for @rc-component/input-number@https://registry.npmjs.org/@rc-component/input-number/-/input-number-1.6.2.tgz. Extracting by manifest.
+781 silly tarball no local data for @rc-component/dialog@https://registry.npmjs.org/@rc-component/dialog/-/dialog-1.8.4.tgz. Extracting by manifest.
+782 silly tarball no local data for @rc-component/dropdown@https://registry.npmjs.org/@rc-component/dropdown/-/dropdown-1.0.2.tgz. Extracting by manifest.
+783 silly tarball no local data for @rc-component/color-picker@https://registry.npmjs.org/@rc-component/color-picker/-/color-picker-3.1.1.tgz. Extracting by manifest.
+784 silly tarball no local data for @rc-component/checkbox@https://registry.npmjs.org/@rc-component/checkbox/-/checkbox-2.0.0.tgz. Extracting by manifest.
+785 silly tarball no local data for @rc-component/collapse@https://registry.npmjs.org/@rc-component/collapse/-/collapse-1.2.0.tgz. Extracting by manifest.
+786 silly tarball no local data for @rc-component/cascader@https://registry.npmjs.org/@rc-component/cascader/-/cascader-1.14.0.tgz. Extracting by manifest.
+787 silly tarball no local data for @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz. Extracting by manifest.
+788 silly tarball no local data for @ant-design/cssinjs-utils@https://registry.npmjs.org/@ant-design/cssinjs-utils/-/cssinjs-utils-2.1.2.tgz. Extracting by manifest.
+789 silly tarball no local data for @ant-design/react-slick@https://registry.npmjs.org/@ant-design/react-slick/-/react-slick-2.0.0.tgz. Extracting by manifest.
+790 silly tarball no local data for @ant-design/cssinjs@https://registry.npmjs.org/@ant-design/cssinjs/-/cssinjs-2.1.2.tgz. Extracting by manifest.
+791 silly tarball no local data for is-mobile@https://registry.npmjs.org/is-mobile/-/is-mobile-5.0.0.tgz. Extracting by manifest.
+792 silly tarball no local data for @ant-design/fast-color@https://registry.npmjs.org/@ant-design/fast-color/-/fast-color-3.0.1.tgz. Extracting by manifest.
+793 silly tarball no local data for @tanstack/query-core@https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.95.2.tgz. Extracting by manifest.
+794 silly tarball no local data for clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz. Extracting by manifest.
+795 silly tarball no local data for @rc-component/qrcode@https://registry.npmjs.org/@rc-component/qrcode/-/qrcode-1.1.1.tgz. Extracting by manifest.
+796 silly tarball no local data for @rc-component/progress@https://registry.npmjs.org/@rc-component/progress/-/progress-1.0.2.tgz. Extracting by manifest.
+797 silly tarball no local data for @rc-component/rate@https://registry.npmjs.org/@rc-component/rate/-/rate-1.0.1.tgz. Extracting by manifest.
+798 silly tarball no local data for @ant-design/colors@https://registry.npmjs.org/@ant-design/colors/-/colors-8.0.1.tgz. Extracting by manifest.
+799 silly tarball no local data for @rc-component/util@https://registry.npmjs.org/@rc-component/util/-/util-1.10.0.tgz. Extracting by manifest.
+800 silly tarball no local data for @tanstack/react-query@https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.95.2.tgz. Extracting by manifest.
+801 silly tarball no local data for echarts-for-react@https://registry.npmjs.org/echarts-for-react/-/echarts-for-react-3.0.6.tgz. Extracting by manifest.
+802 silly tarball no local data for echarts@https://registry.npmjs.org/echarts/-/echarts-6.0.0.tgz. Extracting by manifest.
+803 silly tarball no local data for dayjs@https://registry.npmjs.org/dayjs/-/dayjs-1.11.20.tgz. Extracting by manifest.
+804 silly tarball no local data for antd@https://registry.npmjs.org/antd/-/antd-6.3.4.tgz. Extracting by manifest.
+805 silly tarball no local data for @ant-design/icons@https://registry.npmjs.org/@ant-design/icons/-/icons-6.1.0.tgz. Extracting by manifest.
+806 silly tarball no local data for @ant-design/icons-svg@https://registry.npmjs.org/@ant-design/icons-svg/-/icons-svg-4.4.2.tgz. Extracting by manifest.
+807 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.3.0.tgz. Extracting by manifest.
+808 silly tarball no local data for react-is@https://registry.npmjs.org/react-is/-/react-is-18.3.1.tgz. Extracting by manifest.
+809 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.3.0.tgz. Extracting by manifest.
+810 http fetch GET 200 https://registry.npmjs.org/string-convert/-/string-convert-0.2.1.tgz 273ms (cache miss)
+811 http fetch GET 200 https://registry.npmjs.org/compute-scroll-into-view/-/compute-scroll-into-view-3.1.1.tgz 275ms (cache miss)
+812 http fetch GET 200 https://registry.npmjs.org/size-sensor/-/size-sensor-1.0.3.tgz 274ms (cache miss)
+813 http fetch GET 200 https://registry.npmjs.org/@rc-component/context/-/context-2.0.1.tgz 275ms (cache miss)
+814 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 379ms
+815 silly audit report {}
+816 http fetch GET 200 https://registry.npmjs.org/@rc-component/virtual-list/-/virtual-list-1.0.2.tgz 394ms (cache miss)
+817 http fetch GET 200 https://registry.npmjs.org/scroll-into-view-if-needed/-/scroll-into-view-if-needed-3.1.0.tgz 499ms (cache miss)
+818 http fetch GET 200 https://registry.npmjs.org/throttle-debounce/-/throttle-debounce-5.0.2.tgz 506ms (cache miss)
+819 http fetch GET 200 https://registry.npmjs.org/@rc-component/tree-select/-/tree-select-1.8.0.tgz 528ms (cache miss)
+820 http fetch GET 200 https://registry.npmjs.org/@rc-component/trigger/-/trigger-3.9.0.tgz 540ms (cache miss)
+821 http fetch GET 200 https://registry.npmjs.org/@rc-component/textarea/-/textarea-1.1.2.tgz 697ms (cache miss)
+822 http fetch GET 200 https://registry.npmjs.org/@rc-component/tree/-/tree-1.2.4.tgz 712ms (cache miss)
+823 http fetch GET 200 https://registry.npmjs.org/@rc-component/upload/-/upload-1.1.0.tgz 758ms (cache miss)
+824 http fetch GET 200 https://registry.npmjs.org/@rc-component/tooltip/-/tooltip-1.4.0.tgz 779ms (cache miss)
+825 http fetch GET 200 https://registry.npmjs.org/@rc-component/tour/-/tour-2.3.0.tgz 793ms (cache miss)
+826 http fetch GET 200 https://registry.npmjs.org/@rc-component/overflow/-/overflow-1.0.0.tgz 808ms (cache miss)
+827 http fetch GET 200 https://registry.npmjs.org/@rc-component/mini-decimal/-/mini-decimal-1.1.3.tgz 923ms (cache miss)
+828 http fetch GET 200 https://registry.npmjs.org/@emotion/unitless/-/unitless-0.7.5.tgz 963ms (cache miss)
+829 http fetch GET 200 https://registry.npmjs.org/@rc-component/switch/-/switch-1.0.3.tgz 1027ms (cache miss)
+830 http fetch GET 200 https://registry.npmjs.org/@emotion/hash/-/hash-0.8.0.tgz 1189ms (cache miss)
+831 http fetch GET 200 https://registry.npmjs.org/stylis/-/stylis-4.3.6.tgz 1256ms (cache miss)
+832 http fetch GET 200 https://registry.npmjs.org/@rc-component/pagination/-/pagination-1.2.0.tgz 1310ms (cache miss)
+833 http fetch GET 200 https://registry.npmjs.org/@rc-component/tabs/-/tabs-1.7.0.tgz 1431ms (cache miss)
+834 http fetch GET 200 https://registry.npmjs.org/@rc-component/portal/-/portal-2.2.0.tgz 1436ms (cache miss)
+835 http fetch GET 200 https://registry.npmjs.org/@rc-component/notification/-/notification-1.2.0.tgz 1440ms (cache miss)
+836 http fetch GET 200 https://registry.npmjs.org/@rc-component/async-validator/-/async-validator-5.1.0.tgz 1459ms (cache miss)
+837 http fetch GET 200 https://registry.npmjs.org/@rc-component/mutate-observer/-/mutate-observer-2.0.1.tgz 1483ms (cache miss)
+838 http fetch GET 200 https://registry.npmjs.org/@rc-component/slider/-/slider-1.0.1.tgz 1523ms (cache miss)
+839 http fetch GET 200 https://registry.npmjs.org/@rc-component/motion/-/motion-1.3.1.tgz 1525ms (cache miss)
+840 http fetch GET 200 https://registry.npmjs.org/zrender/-/zrender-6.0.0.tgz 1607ms (cache miss)
+841 http fetch GET 200 https://registry.npmjs.org/@rc-component/steps/-/steps-1.2.2.tgz 1688ms (cache miss)
+842 http fetch GET 200 https://registry.npmjs.org/@rc-component/resize-observer/-/resize-observer-1.1.2.tgz 1717ms (cache miss)
+843 http fetch GET 200 https://registry.npmjs.org/@rc-component/mentions/-/mentions-1.6.0.tgz 1720ms (cache miss)
+844 http fetch GET 200 https://registry.npmjs.org/@rc-component/input/-/input-1.1.2.tgz 1735ms (cache miss)
+845 http fetch GET 200 https://registry.npmjs.org/@rc-component/image/-/image-1.8.0.tgz 1735ms (cache miss)
+846 http fetch GET 200 https://registry.npmjs.org/@rc-component/menu/-/menu-1.2.0.tgz 1736ms (cache miss)
+847 http fetch GET 200 https://registry.npmjs.org/@rc-component/drawer/-/drawer-1.4.2.tgz 1739ms (cache miss)
+848 http fetch GET 200 https://registry.npmjs.org/@rc-component/input-number/-/input-number-1.6.2.tgz 1762ms (cache miss)
+849 http fetch GET 200 https://registry.npmjs.org/@rc-component/picker/-/picker-1.9.1.tgz 1775ms (cache miss)
+850 http fetch GET 200 https://registry.npmjs.org/@rc-component/segmented/-/segmented-1.3.0.tgz 1813ms (cache miss)
+851 http fetch GET 200 https://registry.npmjs.org/@rc-component/dialog/-/dialog-1.8.4.tgz 1836ms (cache miss)
+852 http fetch GET 200 https://registry.npmjs.org/@rc-component/form/-/form-1.8.0.tgz 1915ms (cache miss)
+853 http fetch GET 200 https://registry.npmjs.org/@rc-component/color-picker/-/color-picker-3.1.1.tgz 1953ms (cache miss)
+854 http fetch GET 200 https://registry.npmjs.org/@rc-component/checkbox/-/checkbox-2.0.0.tgz 1957ms (cache miss)
+855 http fetch GET 200 https://registry.npmjs.org/@rc-component/collapse/-/collapse-1.2.0.tgz 1972ms (cache miss)
+856 http fetch GET 200 https://registry.npmjs.org/@rc-component/cascader/-/cascader-1.14.0.tgz 1977ms (cache miss)
+857 http fetch GET 200 https://registry.npmjs.org/@rc-component/table/-/table-1.9.1.tgz 1992ms (cache miss)
+858 http fetch GET 200 https://registry.npmjs.org/@rc-component/dropdown/-/dropdown-1.0.2.tgz 2004ms (cache miss)
+859 http fetch GET 200 https://registry.npmjs.org/@ant-design/cssinjs/-/cssinjs-2.1.2.tgz 2058ms (cache miss)
+860 http fetch GET 200 https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 2213ms (cache miss)
+861 http fetch GET 200 https://registry.npmjs.org/@rc-component/rate/-/rate-1.0.1.tgz 2244ms (cache miss)
+862 http fetch GET 200 https://registry.npmjs.org/@ant-design/colors/-/colors-8.0.1.tgz 2260ms (cache miss)
+863 http fetch GET 200 https://registry.npmjs.org/@rc-component/qrcode/-/qrcode-1.1.1.tgz 2284ms (cache miss)
+864 http fetch GET 200 https://registry.npmjs.org/@ant-design/cssinjs-utils/-/cssinjs-utils-2.1.2.tgz 2309ms (cache miss)
+865 http fetch GET 200 https://registry.npmjs.org/json2mq/-/json2mq-0.2.0.tgz 2320ms (cache miss)
+866 http fetch GET 200 https://registry.npmjs.org/@ant-design/fast-color/-/fast-color-3.0.1.tgz 2358ms (cache miss)
+867 http fetch GET 200 https://registry.npmjs.org/is-mobile/-/is-mobile-5.0.0.tgz 2365ms (cache miss)
+868 http fetch GET 200 https://registry.npmjs.org/@ant-design/react-slick/-/react-slick-2.0.0.tgz 2408ms (cache miss)
+869 http fetch GET 200 https://registry.npmjs.org/@rc-component/util/-/util-1.10.0.tgz 2486ms (cache miss)
+870 http fetch GET 200 https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz 2494ms (cache miss)
+871 http fetch GET 200 https://registry.npmjs.org/@rc-component/progress/-/progress-1.0.2.tgz 2527ms (cache miss)
+872 http fetch GET 200 https://registry.npmjs.org/echarts-for-react/-/echarts-for-react-3.0.6.tgz 2531ms (cache miss)
+873 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.3.0.tgz 2596ms (cache miss)
+874 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.3.0.tgz 2643ms (cache miss)
+875 http fetch GET 200 https://registry.npmjs.org/dayjs/-/dayjs-1.11.20.tgz 2651ms (cache miss)
+876 http fetch GET 200 https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.95.2.tgz 2705ms (cache miss)
+877 http fetch GET 200 https://registry.npmjs.org/react-is/-/react-is-18.3.1.tgz 3014ms (cache miss)
+878 http fetch GET 200 https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.95.2.tgz 3610ms (cache miss)
+879 http fetch GET 200 https://registry.npmjs.org/@ant-design/icons-svg/-/icons-svg-4.4.2.tgz 3836ms (cache miss)
+880 http fetch GET 200 https://registry.npmjs.org/@rc-component/select/-/select-1.6.15.tgz 3876ms (cache miss)
+881 http fetch GET 200 https://registry.npmjs.org/@ant-design/icons/-/icons-6.1.0.tgz 4193ms (cache miss)
+882 http fetch GET 200 https://registry.npmjs.org/echarts/-/echarts-6.0.0.tgz 4229ms (cache miss)
+883 http fetch GET 200 https://registry.npmjs.org/antd/-/antd-6.3.4.tgz 5257ms (cache miss)
+884 silly ADD node_modules/compute-scroll-into-view
+885 silly ADD node_modules/string-convert
+886 silly ADD node_modules/size-sensor
+887 silly ADD node_modules/zrender
+888 silly ADD node_modules/zrender/node_modules/tslib
+889 silly ADD node_modules/@rc-component/context
+890 silly ADD node_modules/@rc-component/virtual-list
+891 silly ADD node_modules/@rc-component/overflow
+892 silly ADD node_modules/@rc-component/mini-decimal
+893 silly ADD node_modules/@rc-component/async-validator
+894 silly ADD node_modules/@rc-component/portal
+895 silly ADD node_modules/json2mq
+896 silly ADD node_modules/stylis
+897 silly ADD node_modules/@emotion/unitless
+898 silly ADD node_modules/@emotion/hash
+899 silly ADD node_modules/throttle-debounce
+900 silly ADD node_modules/scroll-into-view-if-needed
+901 silly ADD node_modules/@rc-component/upload
+902 silly ADD node_modules/@rc-component/trigger
+903 silly ADD node_modules/@rc-component/tree-select
+904 silly ADD node_modules/@rc-component/tree
+905 silly ADD node_modules/@rc-component/tour
+906 silly ADD node_modules/@rc-component/tooltip
+907 silly ADD node_modules/@rc-component/textarea
+908 silly ADD node_modules/@rc-component/tabs
+909 silly ADD node_modules/@rc-component/table
+910 silly ADD node_modules/@rc-component/switch
+911 silly ADD node_modules/@rc-component/steps
+912 silly ADD node_modules/@rc-component/slider
+913 silly ADD node_modules/@rc-component/select
+914 silly ADD node_modules/@rc-component/segmented
+915 silly ADD node_modules/@rc-component/resize-observer
+916 silly ADD node_modules/@rc-component/rate
+917 silly ADD node_modules/@rc-component/qrcode
+918 silly ADD node_modules/@rc-component/progress
+919 silly ADD node_modules/@rc-component/picker
+920 silly ADD node_modules/@rc-component/pagination
+921 silly ADD node_modules/@rc-component/notification
+922 silly ADD node_modules/@rc-component/mutate-observer
+923 silly ADD node_modules/@rc-component/motion
+924 silly ADD node_modules/@rc-component/menu
+925 silly ADD node_modules/@rc-component/mentions
+926 silly ADD node_modules/@rc-component/input-number
+927 silly ADD node_modules/@rc-component/input
+928 silly ADD node_modules/@rc-component/image
+929 silly ADD node_modules/@rc-component/form
+930 silly ADD node_modules/@rc-component/dropdown
+931 silly ADD node_modules/@rc-component/drawer
+932 silly ADD node_modules/@rc-component/dialog
+933 silly ADD node_modules/@rc-component/color-picker
+934 silly ADD node_modules/@rc-component/collapse
+935 silly ADD node_modules/@rc-component/checkbox
+936 silly ADD node_modules/@rc-component/cascader
+937 silly ADD node_modules/@babel/runtime
+938 silly ADD node_modules/@ant-design/react-slick
+939 silly ADD node_modules/@ant-design/cssinjs-utils
+940 silly ADD node_modules/@ant-design/cssinjs
+941 silly ADD node_modules/@tanstack/query-core
+942 silly ADD node_modules/is-mobile
+943 silly ADD node_modules/@ant-design/fast-color
+944 silly ADD node_modules/clsx
+945 silly ADD node_modules/@rc-component/util
+946 silly ADD node_modules/@rc-component/util/node_modules/react-is
+947 silly ADD node_modules/@ant-design/icons-svg
+948 silly ADD node_modules/@ant-design/colors
+949 silly ADD node_modules/echarts-for-react
+950 silly ADD node_modules/echarts
+951 silly ADD node_modules/echarts/node_modules/tslib
+952 silly ADD node_modules/dayjs
+953 silly ADD node_modules/antd
+954 silly ADD node_modules/@tanstack/react-query
+955 silly ADD node_modules/@ant-design/icons
+956 silly ADD
+957 silly ADD
+958 silly ADD
+959 silly ADD
+960 silly ADD
+961 silly ADD
+962 silly ADD
+963 silly ADD
+964 silly ADD
+965 silly ADD
+966 silly ADD
+967 silly ADD
+968 silly ADD
+969 silly ADD
+970 silly ADD
+971 silly ADD
+972 silly ADD
+973 silly ADD
+974 silly ADD
+975 silly ADD
+976 silly ADD
+977 silly ADD
+978 silly ADD
+979 silly ADD
+980 silly ADD
+981 silly ADD
+982 silly ADD
+983 silly ADD
+984 silly ADD
+985 silly ADD
+986 silly ADD
+987 silly ADD
+988 silly ADD
+989 silly ADD
+990 silly ADD
+991 silly ADD
+992 silly ADD
+993 silly ADD
+994 silly ADD
+995 silly ADD
+996 silly ADD
+997 silly ADD
+998 silly ADD
+999 silly ADD
+1000 silly ADD
+1001 silly ADD
+1002 silly ADD
+1003 silly ADD
+1004 silly ADD
+1005 silly ADD
+1006 silly ADD
+1007 silly ADD
+1008 silly ADD
+1009 silly ADD
+1010 silly ADD
+1011 silly ADD
+1012 silly ADD
+1013 silly ADD
+1014 silly ADD
+1015 silly ADD
+1016 silly ADD
+1017 silly ADD
+1018 silly ADD
+1019 silly ADD
+1020 silly ADD
+1021 silly ADD
+1022 silly ADD
+1023 silly ADD
+1024 verbose cwd /Users/chenjunhao/Downloads/1m/silver-age-platform
+1025 verbose os Darwin 23.5.0
+1026 verbose node v22.18.0
+1027 verbose npm  v10.9.3
+1028 notice
+1028 notice New [31mmajor[39m version of npm available! [31m10.9.3[39m -> [34m11.12.0[39m
+1028 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.12.0[39m
+1028 notice To update run: [4mnpm install -g npm@11.12.0[24m
+1028 notice  { force: true, [Symbol(proc-log.meta)]: true }
+1029 verbose exit 0
+1030 info ok
