@@ -15,7 +15,7 @@ export async function POST(request: Request) {
     const totalImpact = issues.reduce((sum, issue) => sum + Math.abs(issue.impactEstimation), 0);
     await new Promise(resolve => setTimeout(resolve, 1500));
     return NextResponse.json({ success: true, data: { issuesProcessed: records.length, totalIssuesFound: issues.length, estimatedDeductionRisk: totalImpact, details: issues } });
-  } catch (error) {
+  } catch {
     return NextResponse.json({ success: false, error: 'Internal Error' }, { status: 500 });
   }
 }

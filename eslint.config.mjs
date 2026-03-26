@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    "setup.js",
+    "tmp-write-audit.js",
   ]),
 ]);
 

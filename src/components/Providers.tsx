@@ -23,12 +23,23 @@ export default function Providers({ children }: { children: React.ReactNode }) {
         locale={zhCN} 
         theme={{ 
           token: { 
-            colorPrimary: '#4F46E5', // 严谨且高级的紫色基调
-            borderRadius: 6,
+            colorPrimary: '#0f766e',
+            colorInfo: '#0891b2',
+            colorSuccess: '#15803d',
+            colorWarning: '#b45309',
+            colorError: '#b91c1c',
+            borderRadius: 10,
             colorBgContainer: '#ffffff',
-            fontFamily: 'Inter, system-ui, sans-serif'
+            fontFamily: '"PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans SC", sans-serif'
           },
           components: {
+            Card: {
+              borderRadiusLG: 16,
+            },
+            Button: {
+              borderRadius: 10,
+              fontWeight: 600,
+            },
             Layout: {
               headerBg: '#ffffff',
               siderBg: '#ffffff',
